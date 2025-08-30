@@ -557,11 +557,7 @@
 						},
 						"c3": {
 							"model": "c3",
-							"items": [
-								"deleted",
-								"deleted1",
-								"expand_button"
-							]
+							"items": []
 						},
 						"c": {
 							"model": "c4",
@@ -689,23 +685,17 @@
 					"cells": {
 						"cell_dpreview": {
 							"model": "cell_dpreview",
-							"items": [],
-							"columnName": "field",
-							"field": "REGION"
+							"items": []
 						},
 						"headcell_icons": {
 							"model": "headcell_icons",
 							"items": [
 								"snippet"
-							],
-							"columnName": "view",
-							"field": ""
+							]
 						},
 						"footcell_icons": {
 							"model": "footcell_icons",
-							"items": [],
-							"columnName": "view",
-							"field": ""
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -777,14 +767,6 @@
 				"-2": {
 					"type": "-"
 				},
-				"deleted": {
-					"type": "deleted",
-					"itemId": "loginform_login"
-				},
-				"deleted1": {
-					"type": "deleted",
-					"itemId": "username_button"
-				},
 				"username_button": {
 					"type": "username_button",
 					"items": [
@@ -796,9 +778,6 @@
 				"loginform_login": {
 					"type": "loginform_login",
 					"popup": false
-				},
-				"expand_button": {
-					"type": "expand_button"
 				}
 			},
 			"dbProps": {},

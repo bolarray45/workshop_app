@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "undo_submit_workorder",
+	"serverCode": "$reqID = $params[\"reqID\"];\n\n// Delete from workshop table\nDB::Delete(\"mentain_workshop\", array(\"workorder_id\" => $reqID));\n\n// Reset status in workorder table\nDB::Update(\"mentain_workorder\", array(\"status\" => 2), array(\"reqID\" => $reqID));\n\n    // Update status of the original request to 0\n    DB::Update(\"mentain_req_stn\", array(\"status\" => \" \"), array(\"reqID\" => $reqID));\n\n// Success message\n$result[\"message\"] = \"🔁 Submission undone successfully.\";\n",
+	"beforeJsCode": "params[\"reqID\"] = row.getFieldValue(\"reqID\");\n",
+	"afterJsCode": "location.reload();"
+}

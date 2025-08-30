@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "undo",
+	"serverCode": "$reqID = $params[\"reqID\"];\n\n// Delete matching work order record\nDB::Delete(\"mentain_workorder\", array(\"stn_req_id\" => $reqID));\n\n// Reset the status in mentain_req_stn to 0\nDB::Update(\"mentain_req_stn\", array(\"status\" => 0), array(\"reqID\" => $reqID));\n\n\n\n$result[\"message\"] = \"Submission undone. Work Order removed and status reset.\";\n",
+	"beforeJsCode": "if (!confirm(\"Are you sure you want to undo this submission?\")) return false;\nparams[\"reqID\"] = row.getFieldValue(\"reqID\");\n",
+	"afterJsCode": "location.reload(); // Optional: refresh the page\n"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "undo_workshop",
+	"serverCode": "$workorderID = $params[\"reqID\"];\n\n// Revert status and optionally clear submit info\nDB::Update(\"mentain_workshop\", array(\n    \"status\" => 3,\n    \"submittedby\" => null,\n    \"submittedOn\" => null\n), array(\"workorder_id\" => $workorderID));\n\nDB::Update(\"mentain_workorder\", array(\n    \"status\" => 3,\n), array(\"reqID\" => $workorderID));\n\n\n\n$result[\"message\"] = \"🔁 Submission undone.\";\n",
+	"beforeJsCode": "params[\"reqID\"] = row.getFieldValue(\"reqID\");\n",
+	"afterJsCode": "\nlocation.reload();\n"
+}

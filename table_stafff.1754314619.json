@@ -1,0 +1,4969 @@
+{
+	"sql": "SELECT\r\n\tSERVICE_NUMBER,\r\n\tSURNAMES,\r\n\tFIRSTNAMES,\r\n\t`MIDDLE NAME`,\r\n\tGRADE,\r\n\tgrade_step,\r\n\tbasic_salary,\r\n\tnet_salary,\r\n\tStation,\r\n\tRegion,\r\n\tSTATUS,\r\n\tusername,\r\n\tpassword,\r\n\tgroupid,\r\n\tactive,\r\n\tphone,\r\n\temail,\r\n\tfullname,\r\n\tdob,\r\n\tmiddlename,\r\n\tgender,\r\n\tmarritalstatus,\r\n\tjobTitle,\r\n\tJOB,\r\n\tstaffType,\r\n\tdoe,\r\n\trank,\r\n\tbatch,\r\n\tdepartment,\r\n\tbusinessphone,\r\n\thomePhone,\r\n\tmobileNo,\r\n\taddress,\r\n\tssnitNo,\r\n\temtType,\r\n\tbankName,\r\n\tbankAcctNo,\r\n\ttinNo,\r\n\tNextofKinName,\r\n\tNextofKinNo,\r\n\tnextofKinemail,\r\n\taddedby,\r\n\taddedon,\r\n\treason,\r\n\tuserpic,\r\n\tthumbnail,\r\n\tlastaccess,\r\n\tapikey,\r\n\tvoucher,\r\n\treset_token,\r\n\treset_date,\r\n\toic,\r\n\ttwo_factor,\r\n\ttotp\r\nFROM\r\n\tstafff",
+	"connId": "conn2",
+	"originalTable": "stafff",
+	"name": "stafff",
+	"shortTableName": "stafff",
+	"dbType": 0,
+	"keyFields": [
+		"username"
+	],
+	"detailsBadgeColor": "008b8b",
+	"fields": [
+		{
+			"name": "SERVICE_NUMBER",
+			"sqlExpression": "SERVICE_NUMBER",
+			"index": 1,
+			"strField": "SERVICE_NUMBER",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "SERVICE NUMBER"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "SURNAMES",
+			"sqlExpression": "SURNAMES",
+			"index": 2,
+			"strField": "SURNAMES",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "SURNAMES"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "FIRSTNAMES",
+			"sqlExpression": "FIRSTNAMES",
+			"index": 3,
+			"strField": "FIRSTNAMES",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "FIRSTNAMES"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "MIDDLE NAME",
+			"sqlExpression": "`MIDDLE NAME`",
+			"index": 4,
+			"strField": "MIDDLE NAME",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "MIDDLE NAME"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "GRADE",
+			"sqlExpression": "GRADE",
+			"index": 5,
+			"strField": "GRADE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "GRADE"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "grade_step",
+			"sqlExpression": "grade_step",
+			"index": 6,
+			"strField": "grade_step",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Grade Step"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "basic_salary",
+			"sqlExpression": "basic_salary",
+			"index": 7,
+			"strField": "basic_salary",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Basic Salary"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "net_salary",
+			"sqlExpression": "net_salary",
+			"index": 8,
+			"strField": "net_salary",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Net Salary"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "Station",
+			"sqlExpression": "Station",
+			"index": 9,
+			"strField": "Station",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Station"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "Region",
+			"sqlExpression": "Region",
+			"index": 10,
+			"strField": "Region",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Region"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "STATUS",
+			"sqlExpression": "STATUS",
+			"index": 11,
+			"strField": "STATUS",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "STATUS"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "username",
+			"sqlExpression": "username",
+			"index": 12,
+			"strField": "username",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Username"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "password",
+			"sqlExpression": "password",
+			"index": 13,
+			"strField": "password",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "Password"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "groupid",
+			"sqlExpression": "groupid",
+			"index": 14,
+			"strField": "groupid",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Groupid"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "active",
+			"sqlExpression": "active",
+			"index": 15,
+			"strField": "active",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Active"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "phone",
+			"sqlExpression": "phone",
+			"index": 16,
+			"strField": "phone",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Phone"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "email",
+			"sqlExpression": "email",
+			"index": 17,
+			"strField": "email",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Email"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "fullname",
+			"sqlExpression": "fullname",
+			"index": 18,
+			"strField": "fullname",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Fullname"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "dob",
+			"sqlExpression": "dob",
+			"index": 19,
+			"strField": "dob",
+			"type": 7,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "Dob"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "middlename",
+			"sqlExpression": "middlename",
+			"index": 20,
+			"strField": "middlename",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Middlename"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "gender",
+			"sqlExpression": "gender",
+			"index": 21,
+			"strField": "gender",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Gender"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "marritalstatus",
+			"sqlExpression": "marritalstatus",
+			"index": 22,
+			"strField": "marritalstatus",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Marritalstatus"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "jobTitle",
+			"sqlExpression": "jobTitle",
+			"index": 23,
+			"strField": "jobTitle",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Job Title"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "JOB",
+			"sqlExpression": "JOB",
+			"index": 24,
+			"strField": "JOB",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "JOB"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "staffType",
+			"sqlExpression": "staffType",
+			"index": 25,
+			"strField": "staffType",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Staff Type"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "doe",
+			"sqlExpression": "doe",
+			"index": 26,
+			"strField": "doe",
+			"type": 7,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "Doe"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "rank",
+			"sqlExpression": "rank",
+			"index": 27,
+			"strField": "rank",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Rank"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "batch",
+			"sqlExpression": "batch",
+			"index": 28,
+			"strField": "batch",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Batch"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "department",
+			"sqlExpression": "department",
+			"index": 29,
+			"strField": "department",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Department"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "businessphone",
+			"sqlExpression": "businessphone",
+			"index": 30,
+			"strField": "businessphone",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Businessphone"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "homePhone",
+			"sqlExpression": "homePhone",
+			"index": 31,
+			"strField": "homePhone",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Home Phone"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "mobileNo",
+			"sqlExpression": "mobileNo",
+			"index": 32,
+			"strField": "mobileNo",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Mobile No"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "address",
+			"sqlExpression": "address",
+			"index": 33,
+			"strField": "address",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Address"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "ssnitNo",
+			"sqlExpression": "ssnitNo",
+			"index": 34,
+			"strField": "ssnitNo",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Ssnit No"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "emtType",
+			"sqlExpression": "emtType",
+			"index": 35,
+			"strField": "emtType",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Emt Type"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "bankName",
+			"sqlExpression": "bankName",
+			"index": 36,
+			"strField": "bankName",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Bank Name"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "bankAcctNo",
+			"sqlExpression": "bankAcctNo",
+			"index": 37,
+			"strField": "bankAcctNo",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Bank Acct No"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "tinNo",
+			"sqlExpression": "tinNo",
+			"index": 38,
+			"strField": "tinNo",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Tin No"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "NextofKinName",
+			"sqlExpression": "NextofKinName",
+			"index": 39,
+			"strField": "NextofKinName",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Nextof Kin Name"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "NextofKinNo",
+			"sqlExpression": "NextofKinNo",
+			"index": 40,
+			"strField": "NextofKinNo",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Nextof Kin No"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "nextofKinemail",
+			"sqlExpression": "nextofKinemail",
+			"index": 41,
+			"strField": "nextofKinemail",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Nextof Kinemail"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "addedby",
+			"sqlExpression": "addedby",
+			"index": 42,
+			"strField": "addedby",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Addedby"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "addedon",
+			"sqlExpression": "addedon",
+			"index": 43,
+			"strField": "addedon",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "Addedon"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "reason",
+			"sqlExpression": "reason",
+			"index": 44,
+			"strField": "reason",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Reason"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "userpic",
+			"sqlExpression": "userpic",
+			"index": 45,
+			"strField": "userpic",
+			"googleLikeSearch": false,
+			"type": 128,
+			"viewFormats": [
+				{
+					"format": "Database Image"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Database image"
+				}
+			],
+			"label": {
+				"English": "Userpic"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "thumbnail",
+			"sqlExpression": "thumbnail",
+			"index": 46,
+			"strField": "thumbnail",
+			"googleLikeSearch": false,
+			"type": 128,
+			"viewFormats": [
+				{
+					"format": "Database Image"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Database image"
+				}
+			],
+			"label": {
+				"English": "Thumbnail"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "lastaccess",
+			"sqlExpression": "lastaccess",
+			"index": 47,
+			"strField": "lastaccess",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "Lastaccess"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "apikey",
+			"sqlExpression": "apikey",
+			"index": 48,
+			"strField": "apikey",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Apikey"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "voucher",
+			"sqlExpression": "voucher",
+			"index": 49,
+			"strField": "voucher",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Voucher"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "reset_token",
+			"sqlExpression": "reset_token",
+			"index": 50,
+			"strField": "reset_token",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "Reset Token"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "reset_date",
+			"sqlExpression": "reset_date",
+			"index": 51,
+			"strField": "reset_date",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "Reset Date"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "oic",
+			"sqlExpression": "oic",
+			"index": 52,
+			"strField": "oic",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Oic"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "two_factor",
+			"sqlExpression": "two_factor",
+			"index": 53,
+			"strField": "two_factor",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "Two Factor"
+			},
+			"tableName": "stafff"
+		},
+		{
+			"name": "totp",
+			"sqlExpression": "totp",
+			"index": 54,
+			"strField": "totp",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "Totp"
+			},
+			"tableName": "stafff"
+		}
+	],
+	"dbTableInfo": {
+		"type": 0,
+		"foreignKeys": [],
+		"fields": [
+			{
+				"name": "SERVICE_NUMBER",
+				"type": 200,
+				"size": 12,
+				"scale": 0,
+				"typeName": "varchar(12)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "SURNAMES",
+				"type": 200,
+				"size": 25,
+				"scale": 0,
+				"typeName": "varchar(25)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "FIRSTNAMES",
+				"type": 200,
+				"size": 25,
+				"scale": 0,
+				"typeName": "varchar(25)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "MIDDLE NAME",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "GRADE",
+				"type": 200,
+				"size": 25,
+				"scale": 0,
+				"typeName": "varchar(25)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "grade_step",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "basic_salary",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "net_salary",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "Station",
+				"type": 200,
+				"size": 25,
+				"scale": 0,
+				"typeName": "varchar(25)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "Region",
+				"type": 200,
+				"size": 25,
+				"scale": 0,
+				"typeName": "varchar(25)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "STATUS",
+				"type": 200,
+				"size": 12,
+				"scale": 0,
+				"typeName": "varchar(12)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "username",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "password",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "groupid",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "active",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "phone",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "email",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "fullname",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "dob",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "middlename",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "gender",
+				"type": 200,
+				"size": 10,
+				"scale": 0,
+				"typeName": "varchar(10)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "marritalstatus",
+				"type": 200,
+				"size": 25,
+				"scale": 0,
+				"typeName": "varchar(25)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "jobTitle",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "JOB",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "staffType",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "doe",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "rank",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "batch",
+				"type": 200,
+				"size": 10,
+				"scale": 0,
+				"typeName": "varchar(10)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "department",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "businessphone",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "homePhone",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "mobileNo",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "address",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "ssnitNo",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "emtType",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "bankName",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "bankAcctNo",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "tinNo",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "NextofKinName",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "NextofKinNo",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "nextofKinemail",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "addedby",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "addedon",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "reason",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "userpic",
+				"type": 205,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumblob",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "thumbnail",
+				"type": 205,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumblob",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "lastaccess",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "apikey",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "voucher",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "reset_token",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "reset_date",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "oic",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "two_factor",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "totp",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			}
+		],
+		"primaryKeys": [
+			"username"
+		],
+		"uniqueFields": [],
+		"name": "stafff"
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33",
+								"integrated_edit_field34",
+								"integrated_edit_field35",
+								"integrated_edit_field36",
+								"integrated_edit_field37",
+								"integrated_edit_field38",
+								"integrated_edit_field39",
+								"integrated_edit_field40",
+								"integrated_edit_field41",
+								"integrated_edit_field42",
+								"integrated_edit_field43",
+								"integrated_edit_field44",
+								"integrated_edit_field45",
+								"integrated_edit_field46",
+								"integrated_edit_field47",
+								"integrated_edit_field48",
+								"integrated_edit_field49",
+								"integrated_edit_field50",
+								"integrated_edit_field51",
+								"integrated_edit_field52",
+								"integrated_edit_field53"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "SURNAMES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "FIRSTNAMES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "MIDDLE NAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "GRADE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "grade_step",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "basic_salary",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "net_salary",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "Station",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "Region",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "username",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "password",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "groupid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "active",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "phone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "email",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "fullname",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "dob",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "middlename",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "gender",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "marritalstatus",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "jobTitle",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "JOB",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "staffType",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "doe",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "rank",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "batch",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "department",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "businessphone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "homePhone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "mobileNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "address",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "ssnitNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field34": {
+					"field": "emtType",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field35": {
+					"field": "bankName",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field36": {
+					"field": "bankAcctNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field37": {
+					"field": "tinNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field38": {
+					"field": "NextofKinName",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field39": {
+					"field": "NextofKinNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field40": {
+					"field": "nextofKinemail",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field41": {
+					"field": "addedby",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field42": {
+					"field": "addedon",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field43": {
+					"field": "reason",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field44": {
+					"field": "userpic",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field45": {
+					"field": "thumbnail",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field46": {
+					"field": "lastaccess",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field47": {
+					"field": "apikey",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field48": {
+					"field": "voucher",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field49": {
+					"field": "reset_token",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field50": {
+					"field": "reset_date",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field51": {
+					"field": "oic",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field52": {
+					"field": "two_factor",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field53": {
+					"field": "totp",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19",
+								"export_field20",
+								"export_field21",
+								"export_field22",
+								"export_field23",
+								"export_field24",
+								"export_field25",
+								"export_field26",
+								"export_field27",
+								"export_field28",
+								"export_field29",
+								"export_field30",
+								"export_field31",
+								"export_field32",
+								"export_field33",
+								"export_field34",
+								"export_field35",
+								"export_field36",
+								"export_field37",
+								"export_field38",
+								"export_field39",
+								"export_field40",
+								"export_field41",
+								"export_field42",
+								"export_field43",
+								"export_field44",
+								"export_field45",
+								"export_field46",
+								"export_field47",
+								"export_field48",
+								"export_field49",
+								"export_field50",
+								"export_field51"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "SURNAMES",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "FIRSTNAMES",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "MIDDLE NAME",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "GRADE",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "grade_step",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "basic_salary",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "net_salary",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "Station",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "Region",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "STATUS",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "username",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "password",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "groupid",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "active",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "phone",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "email",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "fullname",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "dob",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "middlename",
+					"type": "export_field"
+				},
+				"export_field20": {
+					"field": "gender",
+					"type": "export_field"
+				},
+				"export_field21": {
+					"field": "marritalstatus",
+					"type": "export_field"
+				},
+				"export_field22": {
+					"field": "jobTitle",
+					"type": "export_field"
+				},
+				"export_field23": {
+					"field": "JOB",
+					"type": "export_field"
+				},
+				"export_field24": {
+					"field": "staffType",
+					"type": "export_field"
+				},
+				"export_field25": {
+					"field": "doe",
+					"type": "export_field"
+				},
+				"export_field26": {
+					"field": "rank",
+					"type": "export_field"
+				},
+				"export_field27": {
+					"field": "batch",
+					"type": "export_field"
+				},
+				"export_field28": {
+					"field": "department",
+					"type": "export_field"
+				},
+				"export_field29": {
+					"field": "businessphone",
+					"type": "export_field"
+				},
+				"export_field30": {
+					"field": "homePhone",
+					"type": "export_field"
+				},
+				"export_field31": {
+					"field": "mobileNo",
+					"type": "export_field"
+				},
+				"export_field32": {
+					"field": "address",
+					"type": "export_field"
+				},
+				"export_field33": {
+					"field": "ssnitNo",
+					"type": "export_field"
+				},
+				"export_field34": {
+					"field": "emtType",
+					"type": "export_field"
+				},
+				"export_field35": {
+					"field": "bankName",
+					"type": "export_field"
+				},
+				"export_field36": {
+					"field": "bankAcctNo",
+					"type": "export_field"
+				},
+				"export_field37": {
+					"field": "tinNo",
+					"type": "export_field"
+				},
+				"export_field38": {
+					"field": "NextofKinName",
+					"type": "export_field"
+				},
+				"export_field39": {
+					"field": "NextofKinNo",
+					"type": "export_field"
+				},
+				"export_field40": {
+					"field": "nextofKinemail",
+					"type": "export_field"
+				},
+				"export_field41": {
+					"field": "addedby",
+					"type": "export_field"
+				},
+				"export_field42": {
+					"field": "addedon",
+					"type": "export_field"
+				},
+				"export_field43": {
+					"field": "reason",
+					"type": "export_field"
+				},
+				"export_field44": {
+					"field": "lastaccess",
+					"type": "export_field"
+				},
+				"export_field45": {
+					"field": "apikey",
+					"type": "export_field"
+				},
+				"export_field46": {
+					"field": "voucher",
+					"type": "export_field"
+				},
+				"export_field47": {
+					"field": "reset_token",
+					"type": "export_field"
+				},
+				"export_field48": {
+					"field": "reset_date",
+					"type": "export_field"
+				},
+				"export_field49": {
+					"field": "oic",
+					"type": "export_field"
+				},
+				"export_field50": {
+					"field": "two_factor",
+					"type": "export_field"
+				},
+				"export_field51": {
+					"field": "totp",
+					"type": "export_field"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16",
+								"import_field17",
+								"import_field18",
+								"import_field19",
+								"import_field20",
+								"import_field21",
+								"import_field22",
+								"import_field23",
+								"import_field24",
+								"import_field25",
+								"import_field26",
+								"import_field27",
+								"import_field28",
+								"import_field29",
+								"import_field30",
+								"import_field31",
+								"import_field32",
+								"import_field33",
+								"import_field34",
+								"import_field35",
+								"import_field36",
+								"import_field37",
+								"import_field38",
+								"import_field39",
+								"import_field40",
+								"import_field41",
+								"import_field42",
+								"import_field43",
+								"import_field44",
+								"import_field45",
+								"import_field46",
+								"import_field47",
+								"import_field48",
+								"import_field49",
+								"import_field50",
+								"import_field51"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "SURNAMES",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "FIRSTNAMES",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "MIDDLE NAME",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "GRADE",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "grade_step",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "basic_salary",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "net_salary",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "Station",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "Region",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "STATUS",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "username",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "password",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "groupid",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "active",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "phone",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "email",
+					"type": "import_field"
+				},
+				"import_field17": {
+					"field": "fullname",
+					"type": "import_field"
+				},
+				"import_field18": {
+					"field": "dob",
+					"type": "import_field"
+				},
+				"import_field19": {
+					"field": "middlename",
+					"type": "import_field"
+				},
+				"import_field20": {
+					"field": "gender",
+					"type": "import_field"
+				},
+				"import_field21": {
+					"field": "marritalstatus",
+					"type": "import_field"
+				},
+				"import_field22": {
+					"field": "jobTitle",
+					"type": "import_field"
+				},
+				"import_field23": {
+					"field": "JOB",
+					"type": "import_field"
+				},
+				"import_field24": {
+					"field": "staffType",
+					"type": "import_field"
+				},
+				"import_field25": {
+					"field": "doe",
+					"type": "import_field"
+				},
+				"import_field26": {
+					"field": "rank",
+					"type": "import_field"
+				},
+				"import_field27": {
+					"field": "batch",
+					"type": "import_field"
+				},
+				"import_field28": {
+					"field": "department",
+					"type": "import_field"
+				},
+				"import_field29": {
+					"field": "businessphone",
+					"type": "import_field"
+				},
+				"import_field30": {
+					"field": "homePhone",
+					"type": "import_field"
+				},
+				"import_field31": {
+					"field": "mobileNo",
+					"type": "import_field"
+				},
+				"import_field32": {
+					"field": "address",
+					"type": "import_field"
+				},
+				"import_field33": {
+					"field": "ssnitNo",
+					"type": "import_field"
+				},
+				"import_field34": {
+					"field": "emtType",
+					"type": "import_field"
+				},
+				"import_field35": {
+					"field": "bankName",
+					"type": "import_field"
+				},
+				"import_field36": {
+					"field": "bankAcctNo",
+					"type": "import_field"
+				},
+				"import_field37": {
+					"field": "tinNo",
+					"type": "import_field"
+				},
+				"import_field38": {
+					"field": "NextofKinName",
+					"type": "import_field"
+				},
+				"import_field39": {
+					"field": "NextofKinNo",
+					"type": "import_field"
+				},
+				"import_field40": {
+					"field": "nextofKinemail",
+					"type": "import_field"
+				},
+				"import_field41": {
+					"field": "addedby",
+					"type": "import_field"
+				},
+				"import_field42": {
+					"field": "addedon",
+					"type": "import_field"
+				},
+				"import_field43": {
+					"field": "reason",
+					"type": "import_field"
+				},
+				"import_field44": {
+					"field": "lastaccess",
+					"type": "import_field"
+				},
+				"import_field45": {
+					"field": "apikey",
+					"type": "import_field"
+				},
+				"import_field46": {
+					"field": "voucher",
+					"type": "import_field"
+				},
+				"import_field47": {
+					"field": "reset_token",
+					"type": "import_field"
+				},
+				"import_field48": {
+					"field": "reset_date",
+					"type": "import_field"
+				},
+				"import_field49": {
+					"field": "oic",
+					"type": "import_field"
+				},
+				"import_field50": {
+					"field": "two_factor",
+					"type": "import_field"
+				},
+				"import_field51": {
+					"field": "totp",
+					"type": "import_field"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33",
+								"integrated_edit_field34",
+								"integrated_edit_field35",
+								"integrated_edit_field36",
+								"integrated_edit_field37",
+								"integrated_edit_field38",
+								"integrated_edit_field39",
+								"integrated_edit_field40",
+								"integrated_edit_field41",
+								"integrated_edit_field42",
+								"integrated_edit_field43",
+								"integrated_edit_field44",
+								"integrated_edit_field45",
+								"integrated_edit_field46",
+								"integrated_edit_field47",
+								"integrated_edit_field48",
+								"integrated_edit_field49",
+								"integrated_edit_field50",
+								"integrated_edit_field51",
+								"integrated_edit_field52",
+								"integrated_edit_field53"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset",
+						"edit_view"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"integrated_edit_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "SURNAMES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "FIRSTNAMES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "MIDDLE NAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "GRADE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "grade_step",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "basic_salary",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "net_salary",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "Station",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "Region",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "username",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "password",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "groupid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "active",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "phone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "email",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "fullname",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "dob",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "middlename",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "gender",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "marritalstatus",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "jobTitle",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "JOB",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "staffType",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "doe",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "rank",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "batch",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "department",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "businessphone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "homePhone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "mobileNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "address",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "ssnitNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field34": {
+					"field": "emtType",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field35": {
+					"field": "bankName",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field36": {
+					"field": "bankAcctNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field37": {
+					"field": "tinNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field38": {
+					"field": "NextofKinName",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field39": {
+					"field": "NextofKinNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field40": {
+					"field": "nextofKinemail",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field41": {
+					"field": "addedby",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field42": {
+					"field": "addedon",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field43": {
+					"field": "reason",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field44": {
+					"field": "userpic",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field45": {
+					"field": "thumbnail",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field46": {
+					"field": "lastaccess",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field47": {
+					"field": "apikey",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field48": {
+					"field": "voucher",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field49": {
+					"field": "reset_token",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field50": {
+					"field": "reset_date",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field51": {
+					"field": "oic",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field52": {
+					"field": "two_factor",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field53": {
+					"field": "totp",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"edit_view": {
+					"type": "edit_view"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33",
+								"integrated_edit_field34",
+								"integrated_edit_field35",
+								"integrated_edit_field36",
+								"integrated_edit_field37",
+								"integrated_edit_field38",
+								"integrated_edit_field39",
+								"integrated_edit_field40",
+								"integrated_edit_field41",
+								"integrated_edit_field42",
+								"integrated_edit_field43",
+								"integrated_edit_field44",
+								"integrated_edit_field45",
+								"integrated_edit_field46",
+								"integrated_edit_field47",
+								"integrated_edit_field48",
+								"integrated_edit_field49",
+								"integrated_edit_field50",
+								"integrated_edit_field51",
+								"integrated_edit_field52",
+								"integrated_edit_field53"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"integrated_edit_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "SURNAMES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "FIRSTNAMES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "MIDDLE NAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "GRADE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "grade_step",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "basic_salary",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "net_salary",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "Station",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "Region",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "username",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "password",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "groupid",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "active",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "phone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "email",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "fullname",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "dob",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "middlename",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "gender",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "marritalstatus",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "jobTitle",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "JOB",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "staffType",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "doe",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "rank",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "batch",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "department",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "businessphone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "homePhone",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "mobileNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "address",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "ssnitNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field34": {
+					"field": "emtType",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field35": {
+					"field": "bankName",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field36": {
+					"field": "bankAcctNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field37": {
+					"field": "tinNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field38": {
+					"field": "NextofKinName",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field39": {
+					"field": "NextofKinNo",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field40": {
+					"field": "nextofKinemail",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field41": {
+					"field": "addedby",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field42": {
+					"field": "addedon",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field43": {
+					"field": "reason",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field44": {
+					"field": "userpic",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field45": {
+					"field": "thumbnail",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field46": {
+					"field": "lastaccess",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field47": {
+					"field": "apikey",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field48": {
+					"field": "voucher",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field49": {
+					"field": "reset_token",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field50": {
+					"field": "reset_date",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field51": {
+					"field": "oic",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field52": {
+					"field": "two_factor",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field53": {
+					"field": "totp",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options",
+								"loginform_login",
+								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17",
+								"simple_grid_field18",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field21",
+								"simple_grid_field22",
+								"simple_grid_field23",
+								"simple_grid_field24",
+								"simple_grid_field25",
+								"simple_grid_field26",
+								"simple_grid_field27",
+								"simple_grid_field28",
+								"simple_grid_field29",
+								"simple_grid_field30",
+								"simple_grid_field31",
+								"simple_grid_field32",
+								"simple_grid_field33",
+								"simple_grid_field34",
+								"simple_grid_field35",
+								"simple_grid_field36",
+								"simple_grid_field37",
+								"simple_grid_field38",
+								"simple_grid_field39",
+								"simple_grid_field40",
+								"simple_grid_field41",
+								"simple_grid_field42",
+								"simple_grid_field43",
+								"simple_grid_field44",
+								"simple_grid_field45",
+								"simple_grid_field46",
+								"simple_grid_field47",
+								"simple_grid_field48",
+								"simple_grid_field49",
+								"simple_grid_field50",
+								"simple_grid_field51",
+								"simple_grid_field52",
+								"simple_grid_field53"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head",
+						"grid_edit",
+						"grid_view"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"simple_grid_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "SURNAMES",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "FIRSTNAMES",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "MIDDLE NAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "GRADE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "grade_step",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "basic_salary",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "net_salary",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "Station",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "Region",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "STATUS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "username",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "password",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "groupid",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "active",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "phone",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "email",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "fullname",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field18": {
+					"field": "dob",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field19": {
+					"field": "middlename",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field20": {
+					"field": "gender",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field21": {
+					"field": "marritalstatus",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field22": {
+					"field": "jobTitle",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field23": {
+					"field": "JOB",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field24": {
+					"field": "staffType",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field25": {
+					"field": "doe",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field26": {
+					"field": "rank",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field27": {
+					"field": "batch",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field28": {
+					"field": "department",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field29": {
+					"field": "businessphone",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field30": {
+					"field": "homePhone",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field31": {
+					"field": "mobileNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field32": {
+					"field": "address",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field33": {
+					"field": "ssnitNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field34": {
+					"field": "emtType",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field35": {
+					"field": "bankName",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field36": {
+					"field": "bankAcctNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field37": {
+					"field": "tinNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field38": {
+					"field": "NextofKinName",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field39": {
+					"field": "NextofKinNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field40": {
+					"field": "nextofKinemail",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field41": {
+					"field": "addedby",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field42": {
+					"field": "addedon",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field43": {
+					"field": "reason",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field44": {
+					"field": "userpic",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field45": {
+					"field": "thumbnail",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field46": {
+					"field": "lastaccess",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field47": {
+					"field": "apikey",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field48": {
+					"field": "voucher",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field49": {
+					"field": "reset_token",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field50": {
+					"field": "reset_date",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field51": {
+					"field": "oic",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field52": {
+					"field": "two_factor",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field53": {
+					"field": "totp",
+					"type": "simple_grid_field"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field51",
+						"search_panel_field50",
+						"search_panel_field49",
+						"search_panel_field48",
+						"search_panel_field47",
+						"search_panel_field46",
+						"search_panel_field45",
+						"search_panel_field44",
+						"search_panel_field43",
+						"search_panel_field42",
+						"search_panel_field41",
+						"search_panel_field40",
+						"search_panel_field39",
+						"search_panel_field38",
+						"search_panel_field37",
+						"search_panel_field36",
+						"search_panel_field35",
+						"search_panel_field34",
+						"search_panel_field33",
+						"search_panel_field32",
+						"search_panel_field31",
+						"search_panel_field30",
+						"search_panel_field29",
+						"search_panel_field28",
+						"search_panel_field27",
+						"search_panel_field26",
+						"search_panel_field25",
+						"search_panel_field24",
+						"search_panel_field23",
+						"search_panel_field22",
+						"search_panel_field21",
+						"search_panel_field20",
+						"search_panel_field19",
+						"search_panel_field18",
+						"search_panel_field17",
+						"search_panel_field16",
+						"search_panel_field15",
+						"search_panel_field14",
+						"search_panel_field13",
+						"search_panel_field12",
+						"search_panel_field11",
+						"search_panel_field10",
+						"search_panel_field9",
+						"search_panel_field8",
+						"search_panel_field7",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"export_selected",
+						"delete_selected",
+						"-1",
+						"show_search_panel",
+						"hide_search_panel",
+						"-",
+						"export",
+						"-2",
+						"import"
+					]
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"search_panel_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field1": {
+					"field": "SURNAMES",
+					"type": "search_panel_field"
+				},
+				"search_panel_field2": {
+					"field": "FIRSTNAMES",
+					"type": "search_panel_field"
+				},
+				"search_panel_field3": {
+					"field": "MIDDLE NAME",
+					"type": "search_panel_field"
+				},
+				"search_panel_field4": {
+					"field": "GRADE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field5": {
+					"field": "grade_step",
+					"type": "search_panel_field"
+				},
+				"search_panel_field6": {
+					"field": "basic_salary",
+					"type": "search_panel_field"
+				},
+				"search_panel_field7": {
+					"field": "net_salary",
+					"type": "search_panel_field"
+				},
+				"search_panel_field8": {
+					"field": "Station",
+					"type": "search_panel_field"
+				},
+				"search_panel_field9": {
+					"field": "Region",
+					"type": "search_panel_field"
+				},
+				"search_panel_field10": {
+					"field": "STATUS",
+					"type": "search_panel_field"
+				},
+				"search_panel_field11": {
+					"field": "username",
+					"type": "search_panel_field"
+				},
+				"search_panel_field12": {
+					"field": "password",
+					"type": "search_panel_field"
+				},
+				"search_panel_field13": {
+					"field": "groupid",
+					"type": "search_panel_field"
+				},
+				"search_panel_field14": {
+					"field": "active",
+					"type": "search_panel_field"
+				},
+				"search_panel_field15": {
+					"field": "phone",
+					"type": "search_panel_field"
+				},
+				"search_panel_field16": {
+					"field": "email",
+					"type": "search_panel_field"
+				},
+				"search_panel_field17": {
+					"field": "fullname",
+					"type": "search_panel_field"
+				},
+				"search_panel_field18": {
+					"field": "dob",
+					"type": "search_panel_field"
+				},
+				"search_panel_field19": {
+					"field": "middlename",
+					"type": "search_panel_field"
+				},
+				"search_panel_field20": {
+					"field": "gender",
+					"type": "search_panel_field"
+				},
+				"search_panel_field21": {
+					"field": "marritalstatus",
+					"type": "search_panel_field"
+				},
+				"search_panel_field22": {
+					"field": "jobTitle",
+					"type": "search_panel_field"
+				},
+				"search_panel_field23": {
+					"field": "JOB",
+					"type": "search_panel_field"
+				},
+				"search_panel_field24": {
+					"field": "staffType",
+					"type": "search_panel_field"
+				},
+				"search_panel_field25": {
+					"field": "doe",
+					"type": "search_panel_field"
+				},
+				"search_panel_field26": {
+					"field": "rank",
+					"type": "search_panel_field"
+				},
+				"search_panel_field27": {
+					"field": "batch",
+					"type": "search_panel_field"
+				},
+				"search_panel_field28": {
+					"field": "department",
+					"type": "search_panel_field"
+				},
+				"search_panel_field29": {
+					"field": "businessphone",
+					"type": "search_panel_field"
+				},
+				"search_panel_field30": {
+					"field": "homePhone",
+					"type": "search_panel_field"
+				},
+				"search_panel_field31": {
+					"field": "mobileNo",
+					"type": "search_panel_field"
+				},
+				"search_panel_field32": {
+					"field": "address",
+					"type": "search_panel_field"
+				},
+				"search_panel_field33": {
+					"field": "ssnitNo",
+					"type": "search_panel_field"
+				},
+				"search_panel_field34": {
+					"field": "emtType",
+					"type": "search_panel_field"
+				},
+				"search_panel_field35": {
+					"field": "bankName",
+					"type": "search_panel_field"
+				},
+				"search_panel_field36": {
+					"field": "bankAcctNo",
+					"type": "search_panel_field"
+				},
+				"search_panel_field37": {
+					"field": "tinNo",
+					"type": "search_panel_field"
+				},
+				"search_panel_field38": {
+					"field": "NextofKinName",
+					"type": "search_panel_field"
+				},
+				"search_panel_field39": {
+					"field": "NextofKinNo",
+					"type": "search_panel_field"
+				},
+				"search_panel_field40": {
+					"field": "nextofKinemail",
+					"type": "search_panel_field"
+				},
+				"search_panel_field41": {
+					"field": "addedby",
+					"type": "search_panel_field"
+				},
+				"search_panel_field42": {
+					"field": "addedon",
+					"type": "search_panel_field"
+				},
+				"search_panel_field43": {
+					"field": "reason",
+					"type": "search_panel_field"
+				},
+				"search_panel_field44": {
+					"field": "lastaccess",
+					"type": "search_panel_field"
+				},
+				"search_panel_field45": {
+					"field": "apikey",
+					"type": "search_panel_field"
+				},
+				"search_panel_field46": {
+					"field": "voucher",
+					"type": "search_panel_field"
+				},
+				"search_panel_field47": {
+					"field": "reset_token",
+					"type": "search_panel_field"
+				},
+				"search_panel_field48": {
+					"field": "reset_date",
+					"type": "search_panel_field"
+				},
+				"search_panel_field49": {
+					"field": "oic",
+					"type": "search_panel_field"
+				},
+				"search_panel_field50": {
+					"field": "two_factor",
+					"type": "search_panel_field"
+				},
+				"search_panel_field51": {
+					"field": "totp",
+					"type": "search_panel_field"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"adminarea_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"adminarea_link": {
+					"type": "adminarea_link"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add"
+				},
+				"export": {
+					"type": "export"
+				},
+				"-": {
+					"type": "-"
+				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"import": {
+					"type": "import"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"grid_edit": {
+					"type": "grid_edit"
+				},
+				"grid_view": {
+					"type": "grid_view"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"delete": {
+					"type": "delete"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17",
+								"simple_grid_field18",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field21",
+								"simple_grid_field22",
+								"simple_grid_field23",
+								"simple_grid_field24",
+								"simple_grid_field25",
+								"simple_grid_field26",
+								"simple_grid_field27",
+								"simple_grid_field28",
+								"simple_grid_field29",
+								"simple_grid_field30",
+								"simple_grid_field31",
+								"simple_grid_field32",
+								"simple_grid_field33",
+								"simple_grid_field34",
+								"simple_grid_field35",
+								"simple_grid_field36",
+								"simple_grid_field37",
+								"simple_grid_field38",
+								"simple_grid_field39",
+								"simple_grid_field40",
+								"simple_grid_field41",
+								"simple_grid_field42",
+								"simple_grid_field43",
+								"simple_grid_field44",
+								"simple_grid_field45",
+								"simple_grid_field46",
+								"simple_grid_field47",
+								"simple_grid_field48",
+								"simple_grid_field49",
+								"simple_grid_field50",
+								"simple_grid_field51",
+								"simple_grid_field52",
+								"simple_grid_field53"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "SERVICE_NUMBER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "SURNAMES",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "FIRSTNAMES",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "MIDDLE NAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "GRADE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "grade_step",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "basic_salary",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "net_salary",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "Station",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "Region",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "STATUS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "username",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "password",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "groupid",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "active",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "phone",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "email",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "fullname",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field18": {
+					"field": "dob",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field19": {
+					"field": "middlename",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field20": {
+					"field": "gender",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field21": {
+					"field": "marritalstatus",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field22": {
+					"field": "jobTitle",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field23": {
+					"field": "JOB",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field24": {
+					"field": "staffType",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field25": {
+					"field": "doe",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field26": {
+					"field": "rank",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field27": {
+					"field": "batch",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field28": {
+					"field": "department",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field29": {
+					"field": "businessphone",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field30": {
+					"field": "homePhone",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field31": {
+					"field": "mobileNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field32": {
+					"field": "address",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field33": {
+					"field": "ssnitNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field34": {
+					"field": "emtType",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field35": {
+					"field": "bankName",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field36": {
+					"field": "bankAcctNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field37": {
+					"field": "tinNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field38": {
+					"field": "NextofKinName",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field39": {
+					"field": "NextofKinNo",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field40": {
+					"field": "nextofKinemail",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field41": {
+					"field": "addedby",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field42": {
+					"field": "addedon",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field43": {
+					"field": "reason",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field44": {
+					"field": "userpic",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field45": {
+					"field": "thumbnail",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field46": {
+					"field": "lastaccess",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field47": {
+					"field": "apikey",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field48": {
+					"field": "voucher",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field49": {
+					"field": "reset_token",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field50": {
+					"field": "reset_date",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field51": {
+					"field": "oic",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field52": {
+					"field": "two_factor",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field53": {
+					"field": "totp",
+					"type": "simple_grid_field"
+				}
+			},
+			"dbProps": {},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"English": "Stafff"
+	}
+}

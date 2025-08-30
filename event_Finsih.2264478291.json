@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "Finsih",
+	"serverCode": "$record = $button->getCurrentRecord();\n$workorderID = $record[\"reqID\"];\n$user = $_SESSION[\"UserID\"];\n$now = now(); // current datetime\n\n// Update status and submission tracking\nDB::Update(\"mentain_workshop\", array(\n    \"status\" => 4,\n    \"submittedby\" => $user,\n    \"submittedOn\" => $now\n), array(\"reqID\" => $workorderID));\n\n// Update status and submission tracking\nDB::Update(\"mentain_req_stn\", array(\n    \"status\" => 4,\n), array(\"reqID\" => $workorderID));\n\n// Update status and submission tracking\nDB::Update(\"mentain_workorder\", array(\n    \"status\" => 4,\n), array(\"reqID\" => $workorderID));\n\n\n$result[\"message\"] = \"✅ Submitted to supervisor.\";\n",
+	"beforeJsCode": "// Put your code here.\n\nparams[\"txt\"] = \"Hello\";\najax.setMessage(\"Sending request to server...\");\n // Uncomment the following line to prevent execution of \"Server\" and \"Client After\" events.\n // return false;",
+	"afterJsCode": "\nwindow.location.href = \"mentain_workshop_list.php\";"
+}

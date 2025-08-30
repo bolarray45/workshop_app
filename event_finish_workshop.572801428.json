@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "finish_workshop",
+	"serverCode": "$workorderID = $params[\"reqID\"];\n$user = $_SESSION[\"UserID\"];\n$now = now(); // current datetime\n\n// Update status and submission tracking\nDB::Update(\"mentain_workshop\", array(\n    \"status\" => 4,\n    \"submittedby\" => $user,\n    \"submittedOn\" => $now\n), array(\"reqID\" => $workorderID));\n\n// Update status and submission tracking\nDB::Update(\"mentain_req_stn\", array(\n    \"status\" => 4,\n), array(\"reqID\" => $workorderID));\n\n// Update status and submission tracking\nDB::Update(\"mentain_workorder\", array(\n    \"status\" => 4,\n), array(\"reqID\" => $workorderID));\n\n\n$result[\"message\"] = \"✅ Submitted to supervisor.\";\n",
+	"beforeJsCode": "params[\"reqID\"] = row.getFieldValue(\"reqID\");\n",
+	"afterJsCode": "\n\nlocation.reload();\n"
+}

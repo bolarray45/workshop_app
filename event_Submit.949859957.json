@@ -1,0 +1,7 @@
+{
+	"type": "EVENT_BUTTON",
+	"name": "Submit",
+	"serverCode": "$reqID = $params[\"reqID\"];\n\n$rs = DB::Select(\"mentain_req_stn\", array(\"reqID\" => $reqID));\nif ($data = $rs->fetchAssoc()) {\n    // Prepare insert data\n    $insert = array(\n        \"reqID\" => $data[\"reqID\"],\n        \"Station\" => $data[\"Station\"],\n        \"region\" => $data[\"region\"],\n        \"vehNo\" => $data[\"vehNo\"],\n        \"servicetype\" => $data[\"servicetype\"],\n        \"description\" => $data[\"description\"],\n        \"KMR\" => $data[\"KMR\"],\n        \"requestedby\" => $data[\"requestedby\"],\n        \"requestedon\" => $data[\"requestedon\"],\n        \"status\" => 2,\n        \"stn_req_id\" => $data[\"reqID\"]\n    );\n    \n    // Insert into mentain_workorder\n    DB::Insert(\"mentain_workorder\", $insert);\n\n    // Update status of the original request to 2\n    DB::Update(\"mentain_req_stn\", array(\"status\" => 2), array(\"reqID\" => $reqID));\n\n    $result[\"message\"] = \"Work Order created and status updated.\";\n} else {\n    $result[\"message\"] = \"Record not found.\";\n}\n",
+	"beforeJsCode": "// Send reqID to server\nif (!confirm(\"Submit service request?\")) return false;\n\nparams[\"reqID\"] = row.getFieldValue(\"reqID\");\n",
+	"afterJsCode": "\nlocation.reload();\n"
+}

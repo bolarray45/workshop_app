@@ -524,17 +524,6 @@
 								}
 							],
 							"section": ""
-						},
-						{
-							"cells": [
-								{
-									"cell": "c3"
-								},
-								{
-									"cell": "c"
-								}
-							],
-							"section": ""
 						}
 					],
 					"cells": {
@@ -554,14 +543,6 @@
 							"model": "c4",
 							"items": [],
 							"align": "left"
-						},
-						"c3": {
-							"model": "c3",
-							"items": []
-						},
-						"c": {
-							"model": "c4",
-							"items": []
 						}
 					},
 					"deferredItems": [],

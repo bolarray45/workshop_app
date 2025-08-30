@@ -671,7 +671,8 @@
 						"headcell_icons": {
 							"model": "headcell_icons",
 							"items": [
-								"snippet"
+								"snippet",
+								"snippet1"
 							]
 						},
 						"footcell_icons": {
@@ -700,7 +701,7 @@
 				},
 				"snippet": {
 					"type": "snippet",
-					"eventGid": 3452307288
+					"eventGid": null
 				},
 				"show_search_panel": {
 					"type": "show_search_panel"
@@ -759,6 +760,10 @@
 				"loginform_login": {
 					"type": "loginform_login",
 					"popup": false
+				},
+				"snippet1": {
+					"type": "snippet",
+					"eventGid": 3452307288
 				}
 			},
 			"dbProps": {},

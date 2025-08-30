@@ -673,7 +673,8 @@
 							"items": [
 								"snippet",
 								"snippet1",
-								"snippet2"
+								"snippet2",
+								"snippet3"
 							]
 						},
 						"footcell_icons": {
@@ -767,6 +768,10 @@
 					"eventGid": null
 				},
 				"snippet2": {
+					"type": "snippet",
+					"eventGid": null
+				},
+				"snippet3": {
 					"type": "snippet",
 					"eventGid": 3452307288
 				}

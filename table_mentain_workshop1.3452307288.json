@@ -672,7 +672,8 @@
 							"model": "headcell_icons",
 							"items": [
 								"snippet",
-								"snippet1"
+								"snippet1",
+								"snippet2"
 							]
 						},
 						"footcell_icons": {
@@ -762,6 +763,10 @@
 					"popup": false
 				},
 				"snippet1": {
+					"type": "snippet",
+					"eventGid": null
+				},
+				"snippet2": {
 					"type": "snippet",
 					"eventGid": 3452307288
 				}

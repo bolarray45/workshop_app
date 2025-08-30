@@ -729,7 +729,7 @@
 				},
 				"snippet": {
 					"type": "snippet",
-					"eventGid": 3452307288
+					"eventGid": null
 				},
 				"show_search_panel": {
 					"type": "show_search_panel"

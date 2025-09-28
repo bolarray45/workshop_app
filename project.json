@@ -660,8 +660,7 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"snippet",
-								"welcome_item"
+								"snippet"
 							]
 						}
 					},
@@ -700,25 +699,6 @@
 				"snippet": {
 					"type": "snippet",
 					"eventGid": 1503769929
-				},
-				"welcome_item": {
-					"type": "welcome_item",
-					"linkUrl": "",
-					"linkTable": "Vehicle Search",
-					"linkPage": "list",
-					"linkText": {
-						"table": "Vehicle Search",
-						"type": 6
-					},
-					"linkIcon": {
-						"glyph": "shopping-cart"
-					},
-					"linkComments": {
-						"text": "Vehicle Search description",
-						"type": 0
-					},
-					"background": "#bc8f8f",
-					"linkType": 0
 				}
 			},
 			"dbProps": {},

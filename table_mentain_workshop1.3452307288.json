@@ -484,7 +484,6 @@
 					"type": "add_reset"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -773,10 +772,9 @@
 				},
 				"snippet3": {
 					"type": "snippet",
-					"eventGid": 3452307288
+					"eventGid": null
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -917,7 +915,6 @@
 					"popup": false
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1043,7 +1040,6 @@
 					"type": "export_cancel"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1136,7 +1132,6 @@
 					"type": "import_header"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1600,7 +1595,6 @@
 					"type": "edit_view"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2083,7 +2077,6 @@
 					}
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2213,7 +2206,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2339,7 +2331,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2783,7 +2774,6 @@
 					"pageId": "list"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"

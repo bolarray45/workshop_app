@@ -120,7 +120,9 @@
 				{}
 			],
 			"editFormats": [
-				{}
+				{
+					"format": "Text area"
+				}
 			],
 			"label": {
 				"English": "Description"
@@ -282,6 +284,8 @@
 			"tableName": "regions"
 		}
 	],
+	"afterEditAction": 0,
+	"afterAddAction": 0,
 	"eventHandlers": [
 		{
 			"eventId": "EVENT_BEFOREMOVENEXT_LIST",
@@ -890,7 +894,6 @@
 					"field": "status"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1775,7 +1778,6 @@
 					"type": "search_panel_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1968,7 +1970,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2150,7 +2151,6 @@
 					"type": "export_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2289,7 +2289,6 @@
 					"type": "import_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2801,7 +2800,6 @@
 					"field": "status"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -3341,7 +3339,6 @@
 					"field": "REGION"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -3506,7 +3503,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -3667,7 +3663,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"

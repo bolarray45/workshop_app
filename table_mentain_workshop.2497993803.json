@@ -1111,7 +1111,6 @@
 					"orientation": 0
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2216,7 +2215,6 @@
 					}
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2520,7 +2518,6 @@
 					}
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2782,7 +2779,6 @@
 					"type": "export_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2996,7 +2992,6 @@
 					"type": "import_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -4191,7 +4186,6 @@
 					"pageId": "list"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -5485,7 +5479,6 @@
 					"separated": true
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -5735,7 +5728,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -5981,7 +5973,6 @@
 					"type": "simple_grid_field"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -7232,7 +7223,6 @@
 					"orientation": 1
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -8297,7 +8287,6 @@
 					"type": "-"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"addToBottom": false,
 			"imageItem": {

@@ -362,7 +362,7 @@
 			"viewFormats": [
 				{
 					"format": "Custom",
-					"customExpression": "// Map status -> label + colors\n$map = [\n    2 => ['text' => 'Work Order Pending',   'bg' => '#fff3cd', 'fg' => '#8a6d3b', 'bd' => '#ffe69c'],\n    3 => ['text' => 'Work Order Submitted', 'bg' => '#e7f1ff', 'fg' => '#0b5ed7', 'bd' => '#cfe2ff'],\n    4 => ['text' => 'Vehicle Ready',        'bg' => '#e6f4ea', 'fg' => '#0f5132', 'bd' => '#badbcc'],\n];\n\n$st = $map[$data['status']] ?? ['text'=>'Unknown','bg'=>'#f8f9fa','fg'=>'#6c757d','bd'=>'#e9ecef'];\n\n// Inline style so it won’t impact other elements\n$style = 'display:inline-block;'.\n         'padding:.32rem .66rem;'.\n         'border-radius:999px;'.\n         'font:inherit;'.                 // inherit surrounding size\n         'font-weight:600;'.\n         'line-height:1.25;'.\n         'letter-spacing:.2px;'.\n         'white-space:nowrap;'.\n         'vertical-align:middle;'.\n         'border:1px solid '.$st['bd'].';'.\n         'background:'.$st['bg'].';'.\n         'color:'.$st['fg'].';';\n\n$value = '<span style=\"'.$style.'\" title=\"'.$st['text'].'\">'.$st['text'].'</span>';\n"
+					"customExpression": "// Map status -> label + colors\n$map = [\n    2 => ['text' => 'Work Order Pending',   'bg' => '#fff3cd', 'fg' => '#8a6d3b', 'bd' => '#ffe69c'],\n    3 => ['text' => 'Work Order Recieved', 'bg' => '#e7f1ff', 'fg' => '#0b5ed7', 'bd' => '#cfe2ff'],\n    4 => ['text' => 'Vehicle Ready',        'bg' => '#e6f4ea', 'fg' => '#0f5132', 'bd' => '#badbcc'],\n];\n\n$st = $map[$data['status']] ?? ['text'=>'Unknown','bg'=>'#f8f9fa','fg'=>'#6c757d','bd'=>'#e9ecef'];\n\n// Inline style so it won’t impact other elements\n$style = 'display:inline-block;'.\n         'padding:.32rem .66rem;'.\n         'border-radius:999px;'.\n         'font:inherit;'.                 // inherit surrounding size\n         'font-weight:600;'.\n         'line-height:1.25;'.\n         'letter-spacing:.2px;'.\n         'white-space:nowrap;'.\n         'vertical-align:middle;'.\n         'border:1px solid '.$st['bd'].';'.\n         'background:'.$st['bg'].';'.\n         'color:'.$st['fg'].';';\n\n$value = '<span style=\"'.$style.'\" title=\"'.$st['text'].'\">'.$st['text'].'</span>';\n"
 				}
 			],
 			"editFormats": [
@@ -559,7 +559,7 @@
 		{
 			"eventId": "EVENT_BEFOREMOVENEXT_LIST",
 			"pageType": "list",
-			"code": "if ($data[\"status\"] == 4) {\n    $pageObject->hideItem(\"submitToSupervisor\", $recordId);\n    $pageObject->showItem(\"undoSubmitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"grid_edit\", $recordId);\n    $pageObject->hideItem(\"grid_details_link\", $recordId);\n    $pageObject->hideItem(\"grid_details_link1\", $recordId);\n    $pageObject->hideItem(\"grid_alldetails_link\", $recordId);\n\n} elseif ($data[\"status\"] == 3) {\n    $pageObject->showItem(\"submitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"undoSubmitToSupervisor\", $recordId);\n    $pageObject->showItem(\"grid_edit\", $recordId);\n    $pageObject->showItem(\"grid_details_link\", $recordId);\n    $pageObject->showItem(\"grid_details_link1\", $recordId);\n    $pageObject->showItem(\"grid_alldetails_link\", $recordId);\n\n} else {\n    $pageObject->hideItem(\"submitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"undoSubmitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"grid_edit\", $recordId);\n    $pageObject->hideItem(\"grid_details_link\", $recordId);\n    $pageObject->hideItem(\"grid_details_link1\", $recordId);\n    $pageObject->hideItem(\"grid_alldetails_link\", $recordId);\n\n}\n"
+			"code": "if ($data[\"status\"] == 4) {\n    $pageObject->hideItem(\"submitToSupervisor\", $recordId);\n    $pageObject->showItem(\"undoSubmitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"grid_edit\", $recordId);\n    $pageObject->hideItem(\"grid_details_link\", $recordId);\n    $pageObject->hideItem(\"grid_details_link1\", $recordId);\n    $pageObject->hideItem(\"grid_alldetails_link\", $recordId);\n\n} elseif ($data[\"status\"] == 3) {\n    $workdateEmpty = !isset($data[\"workDate\"]) || trim($data[\"workDate\"]) === \"\";\n    $recommendationEmpty = !isset($data[\"reccomendation\"]) || trim($data[\"reccomendation\"]) === \"\";\n\n    if ($workdateEmpty || $recommendationEmpty) {\n        $pageObject->hideItem(\"submitToSupervisor\", $recordId);\n    } else {\n        $pageObject->showItem(\"submitToSupervisor\", $recordId);\n    }\n\n    $pageObject->hideItem(\"undoSubmitToSupervisor\", $recordId);\n    $pageObject->showItem(\"grid_edit\", $recordId);\n    $pageObject->showItem(\"grid_details_link\", $recordId);\n    $pageObject->showItem(\"grid_details_link1\", $recordId);\n    $pageObject->showItem(\"grid_alldetails_link\", $recordId);\n\n} else {\n    $pageObject->hideItem(\"submitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"undoSubmitToSupervisor\", $recordId);\n    $pageObject->hideItem(\"grid_edit\", $recordId);\n    $pageObject->hideItem(\"grid_details_link\", $recordId);\n    $pageObject->hideItem(\"grid_details_link1\", $recordId);\n    $pageObject->hideItem(\"grid_alldetails_link\", $recordId);\n}"
 		}
 	],
 	"dbTableInfo": {
@@ -1111,6 +1111,7 @@
 					"orientation": 0
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1315,9 +1316,6 @@
 									"cell": "headcell_field4"
 								},
 								{
-									"cell": "headcell_field5"
-								},
-								{
 									"cell": "headcell_field6"
 								},
 								{
@@ -1365,9 +1363,6 @@
 									"cell": "cell_field4"
 								},
 								{
-									"cell": "cell_field5"
-								},
-								{
 									"cell": "cell_field6"
 								},
 								{
@@ -1388,7 +1383,7 @@
 							"cells": [
 								{
 									"cell": "cell_dpreview",
-									"colspan": 15
+									"colspan": 14
 								}
 							],
 							"section": "body"
@@ -1420,9 +1415,6 @@
 								},
 								{
 									"cell": "footcell_field4"
-								},
-								{
-									"cell": "footcell_field5"
 								},
 								{
 									"cell": "footcell_field6"
@@ -1551,28 +1543,6 @@
 							"model": "footcell_field",
 							"items": [],
 							"field": "workDate",
-							"columnName": "field"
-						},
-						"headcell_field5": {
-							"model": "headcell_field",
-							"items": [
-								"simple_grid_field25"
-							],
-							"field": "partsUsed",
-							"columnName": "field"
-						},
-						"cell_field5": {
-							"model": "cell_field",
-							"items": [
-								"simple_grid_field21"
-							],
-							"field": "partsUsed",
-							"columnName": "field"
-						},
-						"footcell_field5": {
-							"model": "footcell_field",
-							"items": [],
-							"field": "partsUsed",
 							"columnName": "field"
 						},
 						"headcell_field6": {
@@ -2021,14 +1991,6 @@
 					"type": "grid_field_label",
 					"field": "workDate"
 				},
-				"simple_grid_field21": {
-					"field": "partsUsed",
-					"type": "grid_field"
-				},
-				"simple_grid_field25": {
-					"type": "grid_field_label",
-					"field": "partsUsed"
-				},
 				"simple_grid_field22": {
 					"field": "reccomendation",
 					"type": "grid_field"
@@ -2128,7 +2090,8 @@
 						"text": "Finish"
 					},
 					"icon": {
-						"glyph": "ok"
+						"glyph": "ok",
+						"style": 0
 					},
 					"buttonStyle": "success",
 					"buttonSize": "xtra-small"
@@ -2215,6 +2178,7 @@
 					}
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2518,6 +2482,7 @@
 					}
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2779,6 +2744,7 @@
 					"type": "export_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2992,6 +2958,7 @@
 					"type": "import_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -4186,6 +4153,7 @@
 					"pageId": "list"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -5479,6 +5447,7 @@
 					"separated": true
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -5728,6 +5697,7 @@
 					"type": "simple_grid_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -5973,6 +5943,7 @@
 					"type": "simple_grid_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -7223,6 +7194,7 @@
 					"orientation": 1
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -8287,6 +8259,7 @@
 					"type": "-"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"addToBottom": false,
 			"imageItem": {

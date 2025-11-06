@@ -532,6 +532,7 @@
 					"field": "status"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1158,6 +1159,7 @@
 					"type": "search_panel_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1320,6 +1322,7 @@
 					"type": "simple_grid_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1471,6 +1474,7 @@
 					"type": "export_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1579,6 +1583,7 @@
 					"type": "import_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1866,6 +1871,7 @@
 					"field": "status"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2201,6 +2207,7 @@
 					"field": "total"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2330,6 +2337,7 @@
 					"type": "simple_grid_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2455,6 +2463,7 @@
 					"type": "simple_grid_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"

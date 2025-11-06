@@ -348,6 +348,7 @@
 					"orientation": 0
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -725,6 +726,7 @@
 					"type": "delete_selected"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -874,6 +876,7 @@
 					"type": "simple_grid_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1030,6 +1033,7 @@
 					"type": "export_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1153,6 +1157,7 @@
 					"type": "import_field"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1335,6 +1340,7 @@
 					"type": "edit_view"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1511,6 +1517,7 @@
 					"type": "view_edit"
 				}
 			},
+			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"

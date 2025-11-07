@@ -627,9 +627,7 @@
 					"cells": {
 						"c1": {
 							"model": "c1",
-							"items": [
-								"breadcrumb"
-							]
+							"items": []
 						}
 					},
 					"deferredItems": [],
@@ -666,20 +664,23 @@
 					"cells": {
 						"cell_dpreview": {
 							"model": "cell_dpreview",
-							"items": []
+							"items": [
+								"snippet4"
+							],
+							"columnName": "",
+							"field": ""
 						},
 						"headcell_icons": {
 							"model": "headcell_icons",
-							"items": [
-								"snippet",
-								"snippet1",
-								"snippet2",
-								"snippet3"
-							]
+							"items": [],
+							"columnName": "",
+							"field": ""
 						},
 						"footcell_icons": {
 							"model": "footcell_icons",
-							"items": []
+							"items": [],
+							"columnName": "",
+							"field": ""
 						}
 					},
 					"deferredItems": [],
@@ -701,10 +702,6 @@
 						"3347022253": true
 					}
 				},
-				"snippet": {
-					"type": "snippet",
-					"eventGid": null
-				},
 				"userinfo_link": {
 					"type": "userinfo_link"
 				},
@@ -713,9 +710,6 @@
 				},
 				"adminarea_link": {
 					"type": "adminarea_link"
-				},
-				"breadcrumb": {
-					"type": "breadcrumb"
 				},
 				"logo": {
 					"type": "logo"
@@ -751,17 +745,9 @@
 					"type": "loginform_login",
 					"popup": false
 				},
-				"snippet1": {
+				"snippet4": {
 					"type": "snippet",
-					"eventGid": null
-				},
-				"snippet2": {
-					"type": "snippet",
-					"eventGid": null
-				},
-				"snippet3": {
-					"type": "snippet",
-					"eventGid": null
+					"eventGid": 3452307288
 				}
 			},
 			"dbProps": {},

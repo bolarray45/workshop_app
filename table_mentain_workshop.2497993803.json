@@ -2455,13 +2455,15 @@
 					"type": "details_preview",
 					"table": 3347022253,
 					"items": [],
-					"popup": false
+					"popup": false,
+					"pageId": "list"
 				},
 				"details_preview1": {
 					"type": "details_preview",
 					"table": 2932585697,
 					"items": [],
-					"popup": false
+					"popup": false,
+					"pageId": "list"
 				},
 				"simple_grid_field25": {
 					"field": "total_days_at_wkshop",

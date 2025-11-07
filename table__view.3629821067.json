@@ -1,0 +1,13 @@
+{
+	"type": 1,
+	"name": " view",
+	"shortTableName": "_view",
+	"pages": [],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {}
+}

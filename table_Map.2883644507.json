@@ -92,8 +92,7 @@
 							"model": "c1",
 							"items": [
 								"expand_menu_button",
-								"collapse_button",
-								"breadcrumb"
+								"collapse_button"
 							]
 						},
 						"c2": {
@@ -116,9 +115,6 @@
 				}
 			},
 			"items": {
-				"breadcrumb": {
-					"type": "breadcrumb"
-				},
 				"logo": {
 					"type": "logo"
 				},
@@ -149,7 +145,11 @@
 					"type": "expand_menu_button"
 				},
 				"collapse_button": {
-					"type": "collapse_button"
+					"type": "collapse_button",
+					"icon": {
+						"glyph": "triangle-left",
+						"style": 0
+					}
 				},
 				"text": {
 					"type": "text",

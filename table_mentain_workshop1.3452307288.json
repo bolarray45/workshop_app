@@ -539,9 +539,7 @@
 						},
 						"c4": {
 							"model": "c4",
-							"items": [
-								"snippet4"
-							],
+							"items": [],
 							"align": "left"
 						}
 					},
@@ -671,11 +669,14 @@
 									"side": "",
 									"width": "0"
 								}
-							]
+							],
+							"color": "#000000"
 						},
 						"headcell_icons": {
 							"model": "headcell_icons",
-							"items": [],
+							"items": [
+								"snippet4"
+							],
 							"columnName": "",
 							"field": "",
 							"border": [

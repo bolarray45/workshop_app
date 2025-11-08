@@ -1171,8 +1171,7 @@
 						"c3": {
 							"model": "c3",
 							"items": [
-								"deleted",
-								"deleted1"
+								"text"
 							]
 						},
 						"c4": {
@@ -2160,14 +2159,6 @@
 				"-2": {
 					"type": "-"
 				},
-				"deleted": {
-					"type": "deleted",
-					"itemId": "loginform_login"
-				},
-				"deleted1": {
-					"type": "deleted",
-					"itemId": "username_button"
-				},
 				"username_button": {
 					"type": "username_button",
 					"items": [
@@ -2185,6 +2176,14 @@
 					"tables": {
 						"3452307288": "true"
 					}
+				},
+				"text": {
+					"type": "text",
+					"label": {
+						"text": "<h1 class=\"nas-title\">List of Works Done</h1>",
+						"type": 0
+					},
+					"editedByRte": false
 				}
 			},
 			"dbProps": {},

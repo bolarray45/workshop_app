@@ -409,92 +409,6 @@
 						}
 					},
 					{
-						"id": "14",
-						"children": [
-							{
-								"id": "13",
-								"parent": "14",
-								"data": {
-									"name": {
-										"table": "vehicle_Status_Breakdown ",
-										"type": 6
-									},
-									"pageId": "list",
-									"itemType": 2,
-									"linkType": 0,
-									"table": 3514317239,
-									"pageType": "list"
-								}
-							},
-							{
-								"id": "12",
-								"parent": "14",
-								"data": {
-									"name": {
-										"table": "workorders_by_staff",
-										"type": 6
-									},
-									"pageId": "list",
-									"itemType": 2,
-									"linkType": 0,
-									"table": 3441687167,
-									"pageType": "list"
-								}
-							},
-							{
-								"id": "11",
-								"parent": "14",
-								"data": {
-									"name": {
-										"table": "parts_usage_summary",
-										"type": 6
-									},
-									"pageId": "list",
-									"itemType": 2,
-									"linkType": 0,
-									"table": 3907399298,
-									"pageType": "list"
-								}
-							},
-							{
-								"id": "10",
-								"parent": "14",
-								"data": {
-									"name": {
-										"table": "downtime_summary",
-										"type": 6
-									},
-									"pageId": "list",
-									"itemType": 2,
-									"linkType": 0,
-									"table": 2377171498,
-									"pageType": "list"
-								}
-							},
-							{
-								"id": "9",
-								"parent": "14",
-								"data": {
-									"name": {
-										"table": "Workorders_summary",
-										"type": 6
-									},
-									"pageId": "list",
-									"itemType": 2,
-									"linkType": 0,
-									"table": 2375456050,
-									"pageType": "list"
-								}
-							}
-						],
-						"data": {
-							"name": {
-								"text": "Reports",
-								"type": 0
-							}
-						}
-					},
-					{
 						"id": "8",
 						"children": [
 							{
@@ -2225,7 +2139,7 @@
 		"sidebarCustomThemeColor": "legacy",
 		"topbarCustomThemeColor": "legacy",
 		"logoCustomThemeColor": "legacy",
-		"customCss": "/* === Bigger brand bar + bigger logo === */\n.navbar-brand{\n  height: 68px;          /* was 56px */\n  padding: 0 16px;\n  display: flex;\n  align-items: center;\n}\n\n.navbar-brand .logo{\n  height: 46px;          /* was 36px — adjust to taste */\n  width: auto;\n  display: block;\n}\n\n/* Keep menu items vertically centered to the new height */\n.navbar-nav > li > a{\n  line-height: 68px;      /* match .navbar-brand height */\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\n/* Optional: slightly wider spacing between brand and menu */\n.navbar .navbar-header{ margin-right: 8px; }\n\n/* Responsive: scale down a bit on small screens */\n@media (max-width: 768px){\n  .navbar-brand{ height: 58px; }\n  .navbar-brand .logo{ height: 38px; }\n  .navbar-nav > li > a{ line-height: 58px; }\n}\n",
+		"customCss": "/* === Bigger brand bar + bigger logo === */\n.navbar-brand{\n  height: 68px;          /* was 56px */\n  padding: 0 16px;\n  display: flex;\n  align-items: center;\n}\n\n.navbar-brand .logo{\n  height: 46px;          /* was 36px — adjust to taste */\n  width: auto;\n  display: block;\n}\n\n/* Keep menu items vertically centered to the new height */\n.navbar-nav > li > a{\n  line-height: 68px;      /* match .navbar-brand height */\n  padding-top: 0;\n  padding-bottom: 0;\n}\n\n/* Optional: slightly wider spacing between brand and menu */\n.navbar .navbar-header{ margin-right: 8px; }\n\n/* Responsive: scale down a bit on small screens */\n@media (max-width: 768px){\n  .navbar-brand{ height: 58px; }\n  .navbar-brand .logo{ height: 38px; }\n  .navbar-nav > li > a{ line-height: 58px; }\n}\n/* ===== NAS Title Style ===== */\n.nas-title{\n  margin: 6px 0 14px;\n  font-weight: 800;\n  letter-spacing: .2px;\n  color: #0d1b2a;                 /* main heading color */\n  font-size: clamp(22px, 2.4vw, 32px);\n  line-height: 1.15;\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n}\n\n/* Ghana tricolor underline */\n.nas-title::after{\n  content: \"\";\n  display: block;\n  height: 4px;\n  width: 180px;\n  margin-top: 8px;\n  border-radius: 999px;\n  background: linear-gradient(90deg, #e53935 0 33%, #f4c10f 33% 66%, #0b7d3e 66% 100%);\n}\n\n/* Optional: small badge at the end (use by adding <span class=\"kpi\">... </span> inside h1) */\n.nas-title .kpi{\n  font-size: 12px; font-weight: 700;\n  color: #0b5ed7; background: #0b5ed712;\n  border: 1px solid #cfd8e6; border-radius: 999px;\n  padding: 4px 8px;\n}\n\n/* ===== Auto-apply to PHPRunner page title (optional) ===== */\n[data-itemtype=\"page_title\"] h2{\n  all: unset;\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 6px 0 14px;\n  font-weight: 800;\n  letter-spacing: .2px;\n  color: #0d1b2a;\n  font-size: clamp(22px, 2.4vw, 32px);\n  line-height: 1.15;\n}\n[data-itemtype=\"page_title\"] h2::after{\n  content: \"\";\n  display: block; height: 4px; width: 180px; margin-top: 8px; border-radius: 999px;\n  background: linear-gradient(90deg, #e53935 0 33%, #f4c10f 33% 66%, #0b7d3e 66% 100%);\n}\n",
 		"verticalBorders": false,
 		"gpHeaderBg": "legacy",
 		"gpHeaderColor": "legacy",

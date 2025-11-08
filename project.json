@@ -688,8 +688,7 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"snippet",
-								"welcome_item"
+								"snippet"
 							]
 						}
 					},
@@ -728,25 +727,6 @@
 				"snippet": {
 					"type": "snippet",
 					"eventGid": 1503769929
-				},
-				"welcome_item": {
-					"type": "welcome_item",
-					"linkUrl": "",
-					"linkTable": "Map",
-					"linkPage": "dashboard",
-					"linkText": {
-						"table": "Map",
-						"type": 6
-					},
-					"linkIcon": {
-						"glyph": "hand-right"
-					},
-					"linkComments": {
-						"text": "Map description",
-						"type": 0
-					},
-					"background": "#9acd32",
-					"linkType": 0
 				}
 			},
 			"dbProps": {},

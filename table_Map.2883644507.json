@@ -54,7 +54,6 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"logo",
 								"menu"
 							]
 						},
@@ -109,9 +108,6 @@
 				},
 				"adminarea_link": {
 					"type": "adminarea_link"
-				},
-				"logo": {
-					"type": "logo"
 				},
 				"menu": {
 					"type": "menu"

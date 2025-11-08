@@ -1700,7 +1700,7 @@
 		{
 			"id": "list",
 			"type": "list",
-			"layoutId": "leftbar",
+			"layoutId": "topbar",
 			"disabled": false,
 			"default": 0,
 			"forms": {
@@ -1762,46 +1762,8 @@
 					"deferredItems": [],
 					"recsPerRow": 1
 				},
-				"left": {
-					"modelId": "leftbar-menu",
-					"grid": [
-						{
-							"cells": [
-								{
-									"cell": "c0"
-								}
-							],
-							"section": ""
-						},
-						{
-							"cells": [
-								{
-									"cell": "c1"
-								}
-							],
-							"section": ""
-						}
-					],
-					"cells": {
-						"c0": {
-							"model": "c0",
-							"items": [
-								"logo"
-							]
-						},
-						"c1": {
-							"model": "c1",
-							"items": [
-								"menu",
-								"search_panel"
-							]
-						}
-					},
-					"deferredItems": [],
-					"recsPerRow": 1
-				},
 				"supertop": {
-					"modelId": "leftbar-top",
+					"modelId": "topbar-menu",
 					"grid": [
 						{
 							"cells": [
@@ -1819,9 +1781,7 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"expand_menu_button",
-								"collapse_button",
-								"breadcrumb"
+								"menu"
 							]
 						},
 						"c2": {
@@ -1837,22 +1797,47 @@
 					"deferredItems": [],
 					"recsPerRow": 1
 				},
-				"top": {
-					"modelId": "list-sidebar-top",
+				"left": {
+					"modelId": "list-vbar",
 					"grid": [
 						{
 							"cells": [
 								{
-									"cell": "c2"
+									"cell": "c1"
 								}
 							],
 							"section": ""
 						}
 					],
 					"cells": {
-						"c2": {
-							"model": "c2",
-							"items": []
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"breadcrumb"
+							]
 						}
 					},
 					"deferredItems": [],
@@ -2226,44 +2211,18 @@
 				}
 			},
 			"items": {
-				"page_size": {
-					"type": "page_size"
+				"add": {
+					"type": "add",
+					"icon": {}
 				},
-				"breadcrumb": {
-					"type": "breadcrumb"
-				},
-				"logo": {
-					"type": "logo"
-				},
-				"menu": {
-					"type": "menu"
-				},
-				"simple_search": {
-					"type": "simple_search"
-				},
-				"pagination": {
-					"type": "pagination"
+				"delete": {
+					"type": "delete"
 				},
 				"details_found": {
 					"type": "details_found"
 				},
-				"list_options": {
-					"type": "list_options",
-					"items": [
-						"export_selected",
-						"delete_selected",
-						"-3",
-						"show_search_panel",
-						"hide_search_panel",
-						"-1",
-						"export"
-					]
-				},
-				"expand_menu_button": {
-					"type": "expand_menu_button"
-				},
-				"collapse_button": {
-					"type": "collapse_button"
+				"page_size": {
+					"type": "page_size"
 				},
 				"print_panel": {
 					"type": "print_panel",
@@ -2276,39 +2235,21 @@
 				"print_scope": {
 					"type": "print_scope"
 				},
-				"print_button": {
-					"type": "print_button"
-				},
 				"print_records": {
 					"type": "print_records"
 				},
-				"export": {
-					"type": "export"
+				"print_button": {
+					"type": "print_button"
 				},
-				"-": {
-					"type": "-"
+				"pagination": {
+					"type": "pagination"
 				},
-				"export_selected": {
-					"type": "export_selected"
-				},
-				"-1": {
-					"type": "-"
-				},
-				"-2": {
-					"type": "-"
-				},
-				"simple_grid_field1": {
-					"field": "Station",
-					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
-				},
-				"simple_grid_field": {
+				"grid_field_label": {
 					"type": "grid_field_label",
-					"field": "Station"
+					"field": "reqID"
 				},
-				"simple_grid_field3": {
-					"field": "vehNo",
+				"grid_field": {
+					"field": "reqID",
 					"type": "grid_field",
 					"inlineAdd": false,
 					"inlineEdit": false
@@ -2317,8 +2258,8 @@
 					"type": "grid_field_label",
 					"field": "vehNo"
 				},
-				"simple_grid_field4": {
-					"field": "servicetype",
+				"simple_grid_field3": {
+					"field": "vehNo",
 					"type": "grid_field",
 					"inlineAdd": false,
 					"inlineEdit": false
@@ -2326,6 +2267,21 @@
 				"simple_grid_field9": {
 					"type": "grid_field_label",
 					"field": "servicetype"
+				},
+				"simple_grid_field4": {
+					"field": "servicetype",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field10": {
+					"type": "grid_field_label",
+					"field": "description",
+					"label": {
+						"field": "description",
+						"table": "mentain_workorder",
+						"type": 3
+					}
 				},
 				"simple_grid_field5": {
 					"field": "description",
@@ -2338,21 +2294,6 @@
 						"type": 3
 					}
 				},
-				"simple_grid_field10": {
-					"type": "grid_field_label",
-					"field": "description",
-					"label": {
-						"field": "description",
-						"table": "mentain_workorder",
-						"type": 3
-					}
-				},
-				"simple_grid_field13": {
-					"field": "repairInstruction",
-					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
-				},
 				"simple_grid_field14": {
 					"type": "grid_field_label",
 					"field": "repairInstruction",
@@ -2362,8 +2303,8 @@
 						"type": 3
 					}
 				},
-				"simple_grid_field8": {
-					"field": "requestedon",
+				"simple_grid_field13": {
+					"field": "repairInstruction",
 					"type": "grid_field",
 					"inlineAdd": false,
 					"inlineEdit": false
@@ -2377,8 +2318,8 @@
 						"type": 3
 					}
 				},
-				"simple_grid_field6": {
-					"field": "status",
+				"simple_grid_field8": {
+					"field": "requestedon",
 					"type": "grid_field",
 					"inlineAdd": false,
 					"inlineEdit": false
@@ -2387,11 +2328,17 @@
 					"type": "grid_field_label",
 					"field": "status"
 				},
-				"grid_checkbox": {
-					"type": "grid_checkbox"
+				"simple_grid_field6": {
+					"field": "status",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"grid_checkbox_head": {
 					"type": "grid_checkbox_head"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
 				},
 				"grid_edit": {
 					"type": "grid_edit",
@@ -2420,37 +2367,6 @@
 					"buttonStyle": "primary",
 					"buttonSize": "xtra-small"
 				},
-				"grid_field": {
-					"field": "reqID",
-					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
-				},
-				"grid_field_label": {
-					"type": "grid_field_label",
-					"field": "reqID"
-				},
-				"username_button": {
-					"type": "username_button",
-					"items": [
-						"userinfo_link",
-						"logout_link",
-						"adminarea_link"
-					]
-				},
-				"loginform_login": {
-					"type": "loginform_login",
-					"popup": false
-				},
-				"userinfo_link": {
-					"type": "userinfo_link"
-				},
-				"logout_link": {
-					"type": "logout_link"
-				},
-				"adminarea_link": {
-					"type": "adminarea_link"
-				},
 				"undo_submitToWorkshop": {
 					"type": "custom_button",
 					"eventGid": 773048827,
@@ -2464,15 +2380,15 @@
 					"buttonStyle": "danger",
 					"buttonSize": "xtra-small"
 				},
-				"add": {
-					"type": "add",
-					"icon": {}
+				"simple_grid_field": {
+					"type": "grid_field_label",
+					"field": "Station"
 				},
-				"delete": {
-					"type": "delete"
-				},
-				"delete_selected": {
-					"type": "delete_selected"
+				"simple_grid_field1": {
+					"field": "Station",
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"grid_field1": {
 					"field": "REGION",
@@ -2484,34 +2400,92 @@
 					"type": "grid_field_label",
 					"field": "REGION"
 				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				},
+				"-3": {
+					"type": "-"
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"export": {
+					"type": "export"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"adminarea_link": {
+					"type": "adminarea_link"
+				},
+				"search_panel_field": {
+					"field": "REGION",
+					"type": "search_panel_field"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"export_selected",
+						"delete_selected",
+						"-3",
+						"-2",
+						"-",
+						"show_search_panel",
+						"hide_search_panel",
+						"-1",
+						"export"
+					]
+				},
+				"-": {
+					"type": "-"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"username_button": {
+					"type": "username_button",
+					"items": [
+						"userinfo_link",
+						"logout_link",
+						"adminarea_link"
+					]
+				},
+				"loginform_login": {
+					"type": "loginform_login",
+					"popup": false
+				},
 				"search_panel": {
 					"type": "search_panel",
 					"items": [
 						"search_panel_field"
 					]
-				},
-				"show_search_panel": {
-					"type": "show_search_panel"
-				},
-				"-3": {
-					"type": "-"
-				},
-				"hide_search_panel": {
-					"type": "hide_search_panel"
-				},
-				"search_panel_field": {
-					"field": "REGION",
-					"type": "search_panel_field"
 				}
 			},
 			"dbProps": {},
 			"version": 13,
 			"imageItem": {
-				"type": "page_image",
-				"image": {
-					"image": "background_list.png",
-					"source": 2
-				}
+				"type": "page_image"
 			},
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",

@@ -307,7 +307,7 @@
 		{
 			"id": "list",
 			"type": "list",
-			"layoutId": "leftbar",
+			"layoutId": "topbar",
 			"disabled": false,
 			"default": 0,
 			"forms": {
@@ -371,46 +371,8 @@
 					"deferredItems": [],
 					"recsPerRow": 1
 				},
-				"left": {
-					"modelId": "leftbar-menu",
-					"grid": [
-						{
-							"cells": [
-								{
-									"cell": "c0"
-								}
-							],
-							"section": ""
-						},
-						{
-							"cells": [
-								{
-									"cell": "c1"
-								}
-							],
-							"section": ""
-						}
-					],
-					"cells": {
-						"c0": {
-							"model": "c0",
-							"items": [
-								"logo"
-							]
-						},
-						"c1": {
-							"model": "c1",
-							"items": [
-								"menu",
-								"search_panel"
-							]
-						}
-					},
-					"deferredItems": [],
-					"recsPerRow": 1
-				},
 				"supertop": {
-					"modelId": "leftbar-top",
+					"modelId": "topbar-menu",
 					"grid": [
 						{
 							"cells": [
@@ -428,9 +390,7 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"expand_menu_button",
-								"collapse_button",
-								"breadcrumb"
+								"menu"
 							]
 						},
 						"c2": {
@@ -440,6 +400,66 @@
 								"list_options",
 								"loginform_login",
 								"username_button"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "list-vbar",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"breadcrumb"
+							]
+						},
+						"c3": {
+							"model": "c3",
+							"items": [
+								"master_info"
 							]
 						}
 					},
@@ -476,49 +496,58 @@
 						"grid_inline_cancel"
 					],
 					"recsPerRow": 1
-				},
-				"top": {
-					"modelId": "list-sidebar-top",
-					"grid": [
-						{
-							"cells": [
-								{
-									"cell": "c2"
-								}
-							],
-							"section": ""
-						}
-					],
-					"cells": {
-						"c2": {
-							"model": "c2",
-							"items": [
-								"master_info"
-							]
-						}
-					},
-					"deferredItems": [],
-					"recsPerRow": 1
 				}
 			},
 			"items": {
+				"inline_add": {
+					"type": "inline_add"
+				},
+				"inline_save_all": {
+					"type": "inline_save_all"
+				},
+				"inline_cancel_all": {
+					"type": "inline_cancel_all"
+				},
+				"delete": {
+					"type": "delete"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
 				"page_size": {
 					"type": "page_size"
 				},
-				"breadcrumb": {
-					"type": "breadcrumb"
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
 				},
-				"logo": {
-					"type": "logo"
+				"print_scope": {
+					"type": "print_scope"
 				},
-				"menu": {
-					"type": "menu"
+				"print_records": {
+					"type": "print_records"
 				},
-				"simple_search": {
-					"type": "simple_search"
+				"print_button": {
+					"type": "print_button"
 				},
 				"pagination": {
 					"type": "pagination"
+				},
+				"simple_grid_field2": {
+					"field": "sparePart",
+					"type": "simple_grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
+				},
+				"simple_grid_field": {
+					"field": "quantity",
+					"type": "simple_grid_field",
+					"inlineAdd": true,
+					"inlineEdit": true
 				},
 				"grid_checkbox": {
 					"type": "grid_checkbox"
@@ -526,14 +555,75 @@
 				"grid_checkbox_head": {
 					"type": "grid_checkbox_head"
 				},
-				"details_found": {
-					"type": "details_found"
+				"grid_edit": {
+					"type": "grid_edit"
 				},
-				"simple_grid_field2": {
+				"grid_inline_edit": {
+					"type": "grid_inline_edit"
+				},
+				"grid_inline_save": {
+					"type": "grid_inline_save"
+				},
+				"grid_inline_cancel": {
+					"type": "grid_inline_cancel"
+				},
+				"search_panel_field": {
+					"field": "ID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field3": {
+					"field": "quantity",
+					"type": "search_panel_field"
+				},
+				"search_panel_field2": {
 					"field": "sparePart",
-					"type": "simple_grid_field",
-					"inlineAdd": true,
-					"inlineEdit": true
+					"type": "search_panel_field"
+				},
+				"search_panel_field1": {
+					"field": "work_id",
+					"type": "search_panel_field"
+				},
+				"edit_selected": {
+					"type": "edit_selected"
+				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"-": {
+					"type": "-"
+				},
+				"export": {
+					"type": "export"
+				},
+				"userinfo_link": {
+					"type": "userinfo_link"
+				},
+				"logout_link": {
+					"type": "logout_link"
+				},
+				"adminarea_link": {
+					"type": "adminarea_link"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
 				},
 				"search_panel": {
 					"type": "search_panel",
@@ -552,96 +642,21 @@
 						"export_selected",
 						"delete_selected",
 						"-1",
+						"-2",
 						"show_search_panel",
 						"hide_search_panel",
 						"-",
 						"export"
 					]
 				},
-				"show_search_panel": {
-					"type": "show_search_panel"
-				},
-				"hide_search_panel": {
-					"type": "hide_search_panel"
-				},
-				"search_panel_field": {
-					"field": "ID",
-					"type": "search_panel_field"
-				},
-				"search_panel_field1": {
-					"field": "work_id",
-					"type": "search_panel_field"
-				},
-				"search_panel_field2": {
-					"field": "sparePart",
-					"type": "search_panel_field"
-				},
-				"expand_menu_button": {
-					"type": "expand_menu_button"
-				},
-				"collapse_button": {
-					"type": "collapse_button"
-				},
-				"export": {
-					"type": "export"
-				},
-				"-": {
-					"type": "-"
-				},
-				"export_selected": {
-					"type": "export_selected"
-				},
-				"-1": {
-					"type": "-"
-				},
 				"-2": {
 					"type": "-"
-				},
-				"grid_edit": {
-					"type": "grid_edit"
-				},
-				"delete": {
-					"type": "delete"
-				},
-				"delete_selected": {
-					"type": "delete_selected"
 				},
 				"master_info": {
 					"type": "master_info",
 					"tables": {
 						"2497993803": "true"
 					}
-				},
-				"edit_selected": {
-					"type": "edit_selected"
-				},
-				"grid_inline_edit": {
-					"type": "grid_inline_edit"
-				},
-				"grid_inline_save": {
-					"type": "grid_inline_save"
-				},
-				"grid_inline_cancel": {
-					"type": "grid_inline_cancel"
-				},
-				"inline_save_all": {
-					"type": "inline_save_all"
-				},
-				"inline_cancel_all": {
-					"type": "inline_cancel_all"
-				},
-				"inline_add": {
-					"type": "inline_add"
-				},
-				"simple_grid_field": {
-					"field": "quantity",
-					"type": "simple_grid_field",
-					"inlineAdd": true,
-					"inlineEdit": true
-				},
-				"search_panel_field3": {
-					"field": "quantity",
-					"type": "search_panel_field"
 				},
 				"username_button": {
 					"type": "username_button",
@@ -654,32 +669,6 @@
 				"loginform_login": {
 					"type": "loginform_login",
 					"popup": false
-				},
-				"userinfo_link": {
-					"type": "userinfo_link"
-				},
-				"logout_link": {
-					"type": "logout_link"
-				},
-				"adminarea_link": {
-					"type": "adminarea_link"
-				},
-				"print_panel": {
-					"type": "print_panel",
-					"items": [
-						"print_scope",
-						"print_records",
-						"print_button"
-					]
-				},
-				"print_scope": {
-					"type": "print_scope"
-				},
-				"print_button": {
-					"type": "print_button"
-				},
-				"print_records": {
-					"type": "print_records"
 				}
 			},
 			"dbProps": {},
@@ -691,9 +680,7 @@
 			"controlsBgColor": "white",
 			"imagePosition": "right",
 			"listTotals": 1,
-			"title": {
-				"English": ""
-			}
+			"title": {}
 		},
 		{
 			"id": "print",

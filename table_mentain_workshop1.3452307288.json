@@ -588,7 +588,6 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"logo",
 								"menu"
 							]
 						},
@@ -720,9 +719,6 @@
 				},
 				"adminarea_link": {
 					"type": "adminarea_link"
-				},
-				"logo": {
-					"type": "logo"
 				},
 				"menu": {
 					"type": "menu"
@@ -2786,7 +2782,7 @@
 		{
 			"id": "list1",
 			"type": "list",
-			"layoutId": "leftbar",
+			"layoutId": "topbar",
 			"disabled": false,
 			"default": 0,
 			"forms": {
@@ -2857,45 +2853,8 @@
 					"deferredItems": [],
 					"recsPerRow": 1
 				},
-				"left": {
-					"modelId": "leftbar-menu",
-					"grid": [
-						{
-							"cells": [
-								{
-									"cell": "c0"
-								}
-							],
-							"section": ""
-						},
-						{
-							"cells": [
-								{
-									"cell": "c1"
-								}
-							],
-							"section": ""
-						}
-					],
-					"cells": {
-						"c0": {
-							"model": "c0",
-							"items": [
-								"logo"
-							]
-						},
-						"c1": {
-							"model": "c1",
-							"items": [
-								"menu"
-							]
-						}
-					},
-					"deferredItems": [],
-					"recsPerRow": 1
-				},
 				"supertop": {
-					"modelId": "leftbar-top",
+					"modelId": "topbar-menu",
 					"grid": [
 						{
 							"cells": [
@@ -2913,8 +2872,8 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"expand_menu_button",
-								"collapse_button"
+								"logo",
+								"menu"
 							]
 						},
 						"c2": {
@@ -2927,6 +2886,20 @@
 							]
 						}
 					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "list-vbar",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-top",
+					"grid": [],
+					"cells": {},
 					"deferredItems": [],
 					"recsPerRow": 1
 				},
@@ -2998,13 +2971,6 @@
 					},
 					"deferredItems": [],
 					"recsPerRow": 1
-				},
-				"top": {
-					"modelId": "list-sidebar-top",
-					"grid": [],
-					"cells": {},
-					"deferredItems": [],
-					"recsPerRow": 1
 				}
 			},
 			"items": {
@@ -3019,6 +2985,15 @@
 				"snippet4": {
 					"type": "snippet",
 					"eventGid": 3452307288
+				},
+				"-": {
+					"type": "-"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"-1": {
+					"type": "-"
 				},
 				"userinfo_link": {
 					"type": "userinfo_link"
@@ -3046,15 +3021,6 @@
 						"-1"
 					]
 				},
-				"-": {
-					"type": "-"
-				},
-				"-1": {
-					"type": "-"
-				},
-				"-2": {
-					"type": "-"
-				},
 				"username_button": {
 					"type": "username_button",
 					"items": [
@@ -3066,12 +3032,6 @@
 				"loginform_login": {
 					"type": "loginform_login",
 					"popup": false
-				},
-				"expand_menu_button": {
-					"type": "expand_menu_button"
-				},
-				"collapse_button": {
-					"type": "collapse_button"
 				}
 			},
 			"dbProps": {},

@@ -399,33 +399,160 @@
 					"recsPerRow": 1
 				},
 				"grid": {
-					"modelId": "simple-grid",
+					"modelId": "horizontal-grid",
 					"grid": [
 						{
+							"section": "head",
 							"cells": [
 								{
-									"cell": "c1"
+									"cell": "headcell_icons"
+								},
+								{
+									"cell": "headcell_checkbox"
+								},
+								{
+									"cell": "headcell_field"
+								},
+								{
+									"cell": "headcell_field1"
+								},
+								{
+									"cell": "headcell_field2"
 								}
-							],
-							"section": ""
+							]
+						},
+						{
+							"section": "body",
+							"cells": [
+								{
+									"cell": "cell_icons"
+								},
+								{
+									"cell": "cell_checkbox"
+								},
+								{
+									"cell": "cell_field"
+								},
+								{
+									"cell": "cell_field1"
+								},
+								{
+									"cell": "cell_field2"
+								}
+							]
+						},
+						{
+							"section": "foot",
+							"cells": [
+								{
+									"cell": "footcell_icons"
+								},
+								{
+									"cell": "footcell_checkbox"
+								},
+								{
+									"cell": "footcell_field"
+								},
+								{
+									"cell": "footcell_field1"
+								},
+								{
+									"cell": "footcell_field2"
+								}
+							]
 						}
 					],
 					"cells": {
-						"c1": {
-							"model": "c1",
+						"headcell_field": {
+							"model": "headcell_field",
 							"items": [
-								"simple_grid_field",
-								"simple_grid_field1",
+								"simple_grid_field3"
+							],
+							"field": "ID"
+						},
+						"cell_field": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field"
+							],
+							"field": "ID"
+						},
+						"footcell_field": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "ID"
+						},
+						"headcell_field1": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field4"
+							],
+							"field": "serv_type_id"
+						},
+						"cell_field1": {
+							"model": "cell_field",
+							"items": [
+								"simple_grid_field1"
+							],
+							"field": "serv_type_id"
+						},
+						"footcell_field1": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "serv_type_id"
+						},
+						"headcell_field2": {
+							"model": "headcell_field",
+							"items": [
+								"simple_grid_field5"
+							],
+							"field": "service_type"
+						},
+						"cell_field2": {
+							"model": "cell_field",
+							"items": [
 								"simple_grid_field2"
+							],
+							"field": "service_type"
+						},
+						"footcell_field2": {
+							"model": "footcell_field",
+							"items": [],
+							"field": "service_type"
+						},
+						"headcell_checkbox": {
+							"model": "headcell_checkbox",
+							"items": [
+								"grid_checkbox_head"
 							]
+						},
+						"cell_checkbox": {
+							"model": "cell_checkbox",
+							"items": [
+								"grid_checkbox"
+							]
+						},
+						"footcell_checkbox": {
+							"model": "footcell_checkbox",
+							"items": []
+						},
+						"headcell_icons": {
+							"model": "headcell_icons",
+							"items": []
+						},
+						"cell_icons": {
+							"model": "cell_icons",
+							"items": [
+								"grid_edit",
+								"grid_view"
+							]
+						},
+						"footcell_icons": {
+							"model": "footcell_icons",
+							"items": []
 						}
 					},
-					"deferredItems": [
-						"grid_checkbox",
-						"grid_checkbox_head",
-						"grid_edit",
-						"grid_view"
-					],
+					"deferredItems": [],
 					"recsPerRow": 1
 				}
 			},
@@ -461,30 +588,6 @@
 				},
 				"pagination": {
 					"type": "pagination"
-				},
-				"simple_grid_field": {
-					"field": "ID",
-					"type": "simple_grid_field"
-				},
-				"simple_grid_field1": {
-					"field": "serv_type_id",
-					"type": "simple_grid_field"
-				},
-				"simple_grid_field2": {
-					"field": "service_type",
-					"type": "simple_grid_field"
-				},
-				"grid_checkbox": {
-					"type": "grid_checkbox"
-				},
-				"grid_checkbox_head": {
-					"type": "grid_checkbox_head"
-				},
-				"grid_edit": {
-					"type": "grid_edit"
-				},
-				"grid_view": {
-					"type": "grid_view"
 				},
 				"search_panel_field": {
 					"field": "ID",
@@ -577,6 +680,52 @@
 				"loginform_login": {
 					"type": "loginform_login",
 					"popup": false
+				},
+				"simple_grid_field": {
+					"field": "ID",
+					"type": "grid_field"
+				},
+				"simple_grid_field3": {
+					"type": "grid_field_label",
+					"field": "ID"
+				},
+				"simple_grid_field1": {
+					"field": "serv_type_id",
+					"type": "grid_field"
+				},
+				"simple_grid_field4": {
+					"type": "grid_field_label",
+					"field": "serv_type_id"
+				},
+				"simple_grid_field2": {
+					"field": "service_type",
+					"type": "grid_field"
+				},
+				"simple_grid_field5": {
+					"type": "grid_field_label",
+					"field": "service_type"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"grid_edit": {
+					"type": "grid_edit",
+					"icon": {
+						"glyph": "pencil",
+						"style": 0
+					},
+					"buttonStyle": "success"
+				},
+				"grid_view": {
+					"type": "grid_view",
+					"icon": {
+						"glyph": "search",
+						"style": 0
+					},
+					"buttonStyle": "info"
 				}
 			},
 			"dbProps": {},

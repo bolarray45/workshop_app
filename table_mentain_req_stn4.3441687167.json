@@ -273,7 +273,7 @@
 			"id": "add",
 			"type": "add",
 			"layoutId": "nomenu",
-			"disabled": false,
+			"disabled": true,
 			"default": 0,
 			"forms": {
 				"above-grid": {
@@ -501,7 +501,6 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"add",
 								"delete"
 							]
 						},
@@ -510,7 +509,7 @@
 							"items": [
 								"details_found",
 								"page_size",
-								"print_panel"
+								"print_details"
 							]
 						},
 						"c3": {
@@ -883,10 +882,8 @@
 						"-1",
 						"show_search_panel",
 						"hide_search_panel",
-						"-",
-						"export",
-						"-2",
-						"import"
+						"-3",
+						"export"
 					]
 				},
 				"show_search_panel": {
@@ -909,30 +906,6 @@
 				"collapse_button": {
 					"type": "collapse_button"
 				},
-				"add": {
-					"type": "add"
-				},
-				"print_panel": {
-					"type": "print_panel",
-					"items": [
-						"print_scope",
-						"print_details",
-						"print_records",
-						"print_button"
-					]
-				},
-				"print_scope": {
-					"type": "print_scope"
-				},
-				"print_button": {
-					"type": "print_button"
-				},
-				"print_records": {
-					"type": "print_records"
-				},
-				"export": {
-					"type": "export"
-				},
 				"-": {
 					"type": "-"
 				},
@@ -941,9 +914,6 @@
 				},
 				"-1": {
 					"type": "-"
-				},
-				"import": {
-					"type": "import"
 				},
 				"-2": {
 					"type": "-"
@@ -1043,7 +1013,9 @@
 				},
 				"grid_field": {
 					"field": "year",
-					"type": "grid_field"
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"grid_field_label": {
 					"type": "grid_field_label",
@@ -1051,7 +1023,9 @@
 				},
 				"grid_field1": {
 					"field": "WOreqBy",
-					"type": "grid_field"
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"grid_field_label1": {
 					"type": "grid_field_label",
@@ -1059,7 +1033,9 @@
 				},
 				"grid_field2": {
 					"field": "total_workorders",
-					"type": "grid_field"
+					"type": "grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"grid_field_label2": {
 					"type": "grid_field_label",
@@ -1076,6 +1052,12 @@
 				"search_panel_field4": {
 					"field": "total_workorders",
 					"type": "search_panel_field"
+				},
+				"export": {
+					"type": "export"
+				},
+				"-3": {
+					"type": "-"
 				}
 			},
 			"dbProps": {},
@@ -1093,7 +1075,7 @@
 			"id": "print",
 			"type": "print",
 			"layoutId": "basic",
-			"disabled": false,
+			"disabled": true,
 			"default": 0,
 			"forms": {
 				"above-grid": {
@@ -1412,7 +1394,7 @@
 			"id": "import",
 			"type": "import",
 			"layoutId": "first",
-			"disabled": false,
+			"disabled": true,
 			"default": 0,
 			"forms": {
 				"supertop": {

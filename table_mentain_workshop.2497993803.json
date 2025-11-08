@@ -2181,7 +2181,11 @@
 			"dbProps": {},
 			"version": 13,
 			"imageItem": {
-				"type": "page_image"
+				"type": "page_image",
+				"image": {
+					"image": "background_list.png",
+					"source": 2
+				}
 			},
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",
@@ -4158,7 +4162,11 @@
 			"dbProps": {},
 			"version": 13,
 			"imageItem": {
-				"type": "page_image"
+				"type": "page_image",
+				"image": {
+					"image": "background_list.png",
+					"source": 2
+				}
 			},
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",
@@ -5452,7 +5460,11 @@
 			"dbProps": {},
 			"version": 13,
 			"imageItem": {
-				"type": "page_image"
+				"type": "page_image",
+				"image": {
+					"image": "background_list.png",
+					"source": 2
+				}
 			},
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",
@@ -7199,7 +7211,11 @@
 			"dbProps": {},
 			"version": 13,
 			"imageItem": {
-				"type": "page_image"
+				"type": "page_image",
+				"image": {
+					"image": "background_list.png",
+					"source": 2
+				}
 			},
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",
@@ -8265,7 +8281,11 @@
 			"version": 13,
 			"addToBottom": false,
 			"imageItem": {
-				"type": "page_image"
+				"type": "page_image",
+				"image": {
+					"image": "background_list.png",
+					"source": 2
+				}
 			},
 			"imageBgColor": "#f2f2f2",
 			"controlsBgColor": "white",

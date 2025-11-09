@@ -1,0 +1,207 @@
+/* === Bigger brand bar + bigger logo === */
+.navbar-brand{
+  height: 68px;          /* was 56px */
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .logo{
+  height: 46px;          /* was 36px — adjust to taste */
+  width: auto;
+  display: block;
+}
+
+/* Keep menu items vertically centered to the new height */
+.navbar-nav > li > a{
+  line-height: 68px;      /* match .navbar-brand height */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Optional: slightly wider spacing between brand and menu */
+.navbar .navbar-header{ margin-right: 8px; }
+
+/* Responsive: scale down a bit on small screens */
+@media (max-width: 768px){
+  .navbar-brand{ height: 58px; }
+  .navbar-brand .logo{ height: 38px; }
+  .navbar-nav > li > a{ line-height: 58px; }
+}
+/* ===== NAS Title Style ===== */
+.nas-title{
+  margin: 6px 0 14px;
+  font-weight: 800;
+  letter-spacing: .2px;
+  color: #0d1b2a;                 /* main heading color */
+  font-size: clamp(22px, 2.4vw, 32px);
+  line-height: 1.15;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Ghana tricolor underline */
+.nas-title::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 180px;
+  margin-top: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #e53935 0 33%, #f4c10f 33% 66%, #0b7d3e 66% 100%);
+}
+
+/* Optional: small badge at the end (use by adding <span class="kpi">... </span> inside h1) */
+.nas-title .kpi{
+  font-size: 12px; font-weight: 700;
+  color: #0b5ed7; background: #0b5ed712;
+  border: 1px solid #cfd8e6; border-radius: 999px;
+  padding: 4px 8px;
+}
+
+/* ===== Auto-apply to PHPRunner page title (optional) ===== */
+[data-itemtype="page_title"] h2{
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0 14px;
+  font-weight: 800;
+  letter-spacing: .2px;
+  color: #0d1b2a;
+  font-size: clamp(22px, 2.4vw, 32px);
+  line-height: 1.15;
+}
+[data-itemtype="page_title"] h2::after{
+  content: "";
+  display: block; height: 4px; width: 180px; margin-top: 8px; border-radius: 999px;
+  background: linear-gradient(90deg, #e53935 0 33%, #f4c10f 33% 66%, #0b7d3e 66% 100%);
+}
+/* ===== THEME TOKENS ===== */
+:root{
+  --nas-blue:#0b5ed7;
+  --nas-green:#0b7d3e;
+  --nas-red:#e53935;
+  --ink:#0d1b2a;
+  --muted:#6a778f;
+  --line:#e6ebf3;
+  --surface:#ffffff;
+  --shadow:0 10px 28px rgba(13,27,42,.10);
+  --radius:16px;
+}
+
+/* ===== FILTER BAR / TOOLBAR ===== */
+[data-location="top"] .r-form,
+[data-location="above-grid"] .r-form{
+  background:linear-gradient(180deg,#fff,#f8fbff);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  padding:12px 14px;
+  margin-bottom:14px;
+}
+
+/* Search input: clear “x” shows on typing (JS toggles .has-value) */
+.rnr-search-form .form-control{
+  border:1px solid #cfd8e6; border-radius:12px; padding:10px 36px 10px 12px;
+  transition:box-shadow .2s, border-color .2s;
+}
+.rnr-search-form .form-control:focus{
+  border-color:var(--nas-blue); box-shadow:0 0 0 3px rgba(11,94,215,.16);
+}
+.rnr-search-form .clear-search{
+  position:absolute; right:10px; top:50%; transform:translateY(-50%);
+  width:18px; height:18px; display:none; cursor:pointer; opacity:.7;
+  -webkit-mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M18.3 5.71 12 12l6.3 6.29-1.41 1.42L10.59 13.41 4.29 19.71 2.88 18.3 9.17 12 2.88 5.71 4.29 4.29l6.3 6.3 6.29-6.3z"/></svg>') center/contain no-repeat;
+          mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M18.3 5.71 12 12l6.3 6.29-1.41 1.42L10.59 13.41 4.29 19.71 2.88 18.3 9.17 12 2.88 5.71 4.29 4.29l6.3 6.3 6.29-6.3z"/></svg>') center/contain no-repeat;
+  background:#6b7280;
+}
+.rnr-search-form.has-value .clear-search{ display:block; }
+
+/* Density toggle chip (JS injects) */
+.nas-density{
+  display:inline-flex; align-items:center; gap:8px; margin-left:8px;
+  background:#f2f6ff; border:1px solid #d9e5ff; color:#2b4a8f;
+  border-radius:999px; padding:6px 10px; font-weight:700; font-size:12px;
+}
+.nas-density input{ accent-color:var(--nas-blue); }
+
+/* ===== GRID CARD ===== */
+.bs-grid, .r-grid{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+
+/* ===== TABLE ===== */
+.bs-grid .table, .r-grid .table{ margin:0; border-collapse:separate; border-spacing:0; }
+
+/* Sticky header with sort indicators */
+.bs-grid thead th, .r-grid thead th{
+  position:sticky; top:0; z-index:2;
+  background:#f8fbff; color:#2a3447;
+  border-bottom:1px solid var(--line)!important;
+  font-weight:800; letter-spacing:.2px; padding:11px 12px!important;
+}
+.bs-grid thead th.sortable, .r-grid thead th.sortable{ cursor:pointer; }
+.bs-grid thead th.sort-asc::after, .r-grid thead th.sort-asc::after,
+.bs-grid thead th.sort-desc::after, .r-grid thead th.sort-desc::after{
+  content:""; display:inline-block; width:12px; height:12px; margin-left:6px; vertical-align:middle; background:#2a3447;
+  -webkit-mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M7 10l5-5 5 5z"/></svg>') center/contain no-repeat;
+          mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23000" d="M7 10l5-5 5 5z"/></svg>') center/contain no-repeat;
+  opacity:.6;
+}
+.bs-grid thead th.sort-desc::after, .r-grid thead th.sort-desc::after{
+  transform:rotate(180deg);
+}
+
+/* Body cells */
+.bs-grid tbody td, .r-grid tbody td{
+  border-top:1px solid var(--line)!important;
+  padding:12px 12px!important; vertical-align:middle; color:#243041;
+  transition:background-color .15s;
+}
+
+/* Zebra + hover */
+.bs-grid tbody tr:nth-child(odd), .r-grid tbody tr:nth-child(odd){ background:#fcfdff; }
+.bs-grid tbody tr:hover,        .r-grid tbody tr:hover{ background:#f2f7ff; }
+
+/* Selected highlight */
+.bs-grid tbody tr.selected, .r-grid tbody tr.selected{
+  background:#e9f2ff!important; box-shadow:inset 0 0 0 2px rgba(11,94,215,.25);
+}
+
+/* Compact density (JS toggles .dense on table) */
+.table.dense tbody td{ padding:8px 10px!important; }
+.table.dense thead th{ padding:9px 10px!important; }
+
+/* Row action buttons */
+.grid-icons .btn{
+  border:1px solid var(--line); background:#fff; color:#334155;
+  padding:7px 10px; border-radius:10px; box-shadow:none;
+  display:inline-flex; align-items:center; gap:6px; transition:transform .06s, background-color .2s;
+}
+.grid-icons .btn:hover{ background:#f8fbff; border-color:#cfd8e6; transform:translateY(-1px); }
+
+/* Ripple (JS adds .ripple span) */
+.btn .ripple{ position:absolute; border-radius:50%; transform:scale(0); animation:ripple .6s linear; background:#fff6; pointer-events:none; }
+@keyframes ripple{ to{ transform:scale(10); opacity:0; } }
+
+/* Chips */
+.chip{ display:inline-block; padding:4px 8px; border-radius:999px; border:1px solid var(--line); font-weight:700; font-size:12px; letter-spacing:.2px; line-height:1; }
+.chip--ok{ color:#0a6a38; background:#eaf7ef; border-color:#cfe9d8; }
+.chip--warn{ color:#7a4a00; background:#fff7e6; border-color:#ffe3b0; }
+.chip--bad{ color:#8b2020; background:#ffecec; border-color:#ffc7c7; }
+.chip--info{ color:var(--nas-blue); background:#eaf2ff; border-color:#cfe0ff; }
+
+/* Pagination */
+.pagination > li > a, .pagination > li > span{
+  border:1px solid var(--line)!important; color:#2a3447; background:#fff; border-radius:10px; margin:0 3px;
+}
+.pagination > .active > a, .pagination > .active > span{
+  background:var(--nas-blue)!important; color:#fff!important; border-color:#0a55c1!important;
+}
+.pagination > li > a:hover{ background:#f2f7ff; }

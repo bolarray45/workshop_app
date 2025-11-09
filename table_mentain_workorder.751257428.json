@@ -1,45 +1,24 @@
 {
 	"orderInfo": [
 		{
-			"index": 1,
-			"field": "reqID",
+			"index": 0,
+			"field": "",
 			"expr": "reqID",
 			"asc": false
 		}
 	],
-	"sql": "SELECT\n  mw.reqID,\n  mw.Station,\n  mw.vehNo,\n  mw.servicetype,\n  mw.description,\n  mw.KMR,\n  mw.requestedby,\n  mw.requestedon,\n  mw.arrivaltime,\n  mw.arrivaldate,\n  mw.vehType,\n  mw.chasisNo,\n  mw.repairInstruction,\n  mw.KMRin,\n  mw.KMRout,\n  mw.WOreqBy,\n  mw.WOreqOn,\n  mw.status,\n  mw.garage,\n  mw.attachment,\n  mw.stn_req_id,\n  (SELECT r.REGION\n     FROM regions r\n     WHERE r.stations = mw.Station\n     /* optionally choose a rule for “the” row: ORDER BY r.id DESC */\n     LIMIT 1) AS REGION\nFROM mentain_workorder mw\nORDER BY mw.reqID DESC;\n",
+	"sql": "SELECT\n\tStation,\n\tvehNo,\n\tservicetype,\n\tdescription,\n\tKMR,\n\trequestedby,\n\trequestedon,\n\tarrivaltime,\n\tarrivaldate,\n\tvehType,\n\tchasisNo,\n\trepairInstruction,\n\tKMRin,\n\tKMRout,\n\tWOreqBy,\n\tWOreqOn,\n\tstatus,\n\tgarage,\n\tattachment,\n\tstn_req_id,\n\t(SELECT\n\tREGION\nFROM\n\tregions AS r\nWHERE\nstations = mw.Station\nLIMIT 1\n) AS REGION\nFROM\n\tmentain_workorder AS mw\nORDER BY\n\treqID DESC\n",
 	"connId": "conn",
 	"originalTable": "mentain_workorder",
 	"name": "mentain_workorder",
 	"shortTableName": "mentain_workorder",
 	"dbType": 0,
-	"keyFields": [
-		"reqID"
-	],
 	"detailsBadgeColor": "000",
 	"fields": [
 		{
-			"name": "reqID",
-			"sqlExpression": "mw.reqID",
-			"index": 1,
-			"strField": "reqID",
-			"type": 3,
-			"autoinc": true,
-			"viewFormats": [
-				{}
-			],
-			"editFormats": [
-				{}
-			],
-			"label": {
-				"English": "Req ID"
-			},
-			"tableName": "mentain_workorder"
-		},
-		{
 			"name": "Station",
-			"sqlExpression": "mw.Station",
-			"index": 2,
+			"sqlExpression": "Station",
+			"index": 1,
 			"strField": "Station",
 			"type": 200,
 			"separateEditViewFormats": true,
@@ -90,8 +69,8 @@
 		},
 		{
 			"name": "vehNo",
-			"sqlExpression": "mw.vehNo",
-			"index": 3,
+			"sqlExpression": "vehNo",
+			"index": 2,
 			"strField": "vehNo",
 			"type": 200,
 			"viewFormats": [
@@ -109,8 +88,8 @@
 		},
 		{
 			"name": "servicetype",
-			"sqlExpression": "mw.servicetype",
-			"index": 4,
+			"sqlExpression": "servicetype",
+			"index": 3,
 			"strField": "servicetype",
 			"type": 200,
 			"viewFormats": [
@@ -135,8 +114,8 @@
 		},
 		{
 			"name": "description",
-			"sqlExpression": "mw.description",
-			"index": 5,
+			"sqlExpression": "description",
+			"index": 4,
 			"strField": "description",
 			"type": 200,
 			"viewFormats": [
@@ -157,8 +136,8 @@
 		},
 		{
 			"name": "KMR",
-			"sqlExpression": "mw.KMR",
-			"index": 6,
+			"sqlExpression": "KMR",
+			"index": 5,
 			"strField": "KMR",
 			"type": 200,
 			"viewFormats": [
@@ -174,8 +153,8 @@
 		},
 		{
 			"name": "requestedby",
-			"sqlExpression": "mw.requestedby",
-			"index": 7,
+			"sqlExpression": "requestedby",
+			"index": 6,
 			"strField": "requestedby",
 			"type": 200,
 			"viewFormats": [
@@ -194,8 +173,8 @@
 		},
 		{
 			"name": "requestedon",
-			"sqlExpression": "mw.requestedon",
-			"index": 8,
+			"sqlExpression": "requestedon",
+			"index": 7,
 			"strField": "requestedon",
 			"type": 135,
 			"viewFormats": [
@@ -216,8 +195,8 @@
 		},
 		{
 			"name": "arrivaltime",
-			"sqlExpression": "mw.arrivaltime",
-			"index": 9,
+			"sqlExpression": "arrivaltime",
+			"index": 8,
 			"strField": "arrivaltime",
 			"type": 200,
 			"viewFormats": [
@@ -235,8 +214,8 @@
 		},
 		{
 			"name": "arrivaldate",
-			"sqlExpression": "mw.arrivaldate",
-			"index": 10,
+			"sqlExpression": "arrivaldate",
+			"index": 9,
 			"strField": "arrivaldate",
 			"type": 200,
 			"viewFormats": [
@@ -259,8 +238,8 @@
 		},
 		{
 			"name": "vehType",
-			"sqlExpression": "mw.vehType",
-			"index": 11,
+			"sqlExpression": "vehType",
+			"index": 10,
 			"strField": "vehType",
 			"type": 200,
 			"viewFormats": [
@@ -281,8 +260,8 @@
 		},
 		{
 			"name": "chasisNo",
-			"sqlExpression": "mw.chasisNo",
-			"index": 12,
+			"sqlExpression": "chasisNo",
+			"index": 11,
 			"strField": "chasisNo",
 			"type": 200,
 			"viewFormats": [
@@ -298,8 +277,8 @@
 		},
 		{
 			"name": "repairInstruction",
-			"sqlExpression": "mw.repairInstruction",
-			"index": 13,
+			"sqlExpression": "repairInstruction",
+			"index": 12,
 			"strField": "repairInstruction",
 			"type": 200,
 			"viewFormats": [
@@ -321,8 +300,8 @@
 		},
 		{
 			"name": "KMRin",
-			"sqlExpression": "mw.KMRin",
-			"index": 14,
+			"sqlExpression": "KMRin",
+			"index": 13,
 			"strField": "KMRin",
 			"type": 200,
 			"viewFormats": [
@@ -338,8 +317,8 @@
 		},
 		{
 			"name": "KMRout",
-			"sqlExpression": "mw.KMRout",
-			"index": 15,
+			"sqlExpression": "KMRout",
+			"index": 14,
 			"strField": "KMRout",
 			"type": 200,
 			"viewFormats": [
@@ -355,8 +334,8 @@
 		},
 		{
 			"name": "WOreqBy",
-			"sqlExpression": "mw.WOreqBy",
-			"index": 16,
+			"sqlExpression": "WOreqBy",
+			"index": 15,
 			"strField": "WOreqBy",
 			"type": 200,
 			"viewFormats": [
@@ -376,8 +355,8 @@
 		},
 		{
 			"name": "WOreqOn",
-			"sqlExpression": "mw.WOreqOn",
-			"index": 17,
+			"sqlExpression": "WOreqOn",
+			"index": 16,
 			"strField": "WOreqOn",
 			"type": 135,
 			"viewFormats": [
@@ -399,8 +378,8 @@
 		},
 		{
 			"name": "status",
-			"sqlExpression": "mw.status",
-			"index": 18,
+			"sqlExpression": "status",
+			"index": 17,
 			"strField": "status",
 			"type": 200,
 			"viewFormats": [
@@ -419,15 +398,22 @@
 		},
 		{
 			"name": "garage",
-			"sqlExpression": "mw.garage",
-			"index": 19,
+			"sqlExpression": "garage",
+			"index": 18,
 			"strField": "garage",
 			"type": 200,
 			"viewFormats": [
 				{}
 			],
 			"editFormats": [
-				{}
+				{
+					"format": "Lookup wizard",
+					"lookupTable": "garages",
+					"lookupTableConnection": "conn",
+					"lookupLinkField": "garage_id",
+					"lookupDisplayField": "garage_name",
+					"lookupOrderBy": "garage_name"
+				}
 			],
 			"label": {
 				"English": "Garage"
@@ -439,11 +425,11 @@
 		},
 		{
 			"name": "attachment",
-			"sqlExpression": "mw.attachment",
-			"index": 20,
+			"sqlExpression": "attachment",
+			"index": 19,
 			"strField": "attachment",
 			"googleLikeSearch": false,
-			"type": 128,
+			"type": 201,
 			"viewFormats": [
 				{
 					"format": "Database Image"
@@ -464,8 +450,8 @@
 		},
 		{
 			"name": "stn_req_id",
-			"sqlExpression": "mw.stn_req_id",
-			"index": 21,
+			"sqlExpression": "stn_req_id",
+			"index": 20,
 			"strField": "stn_req_id",
 			"type": 3,
 			"viewFormats": [
@@ -481,8 +467,8 @@
 		},
 		{
 			"name": "REGION",
-			"sqlExpression": "(SELECT r.REGION\n     FROM regions r\n     WHERE r.stations = mw.Station\n     /* optionally choose a rule for “the” row: ORDER BY r.id DESC */\n     LIMIT 1)",
-			"index": 22,
+			"sqlExpression": "(SELECT\n\tREGION\nFROM\n\tregions AS r\nWHERE\nstations = mw.Station\nLIMIT 1\n)",
+			"index": 21,
 			"strField": "REGION",
 			"type": 200,
 			"viewFormats": [
@@ -734,10 +720,10 @@
 			},
 			{
 				"name": "attachment",
-				"type": 128,
+				"type": 201,
 				"size": 0,
 				"scale": 0,
-				"typeName": "mediumblob",
+				"typeName": "longtext",
 				"nullable": false,
 				"autoinc": false,
 				"defaultValueSQL": null,
@@ -1872,9 +1858,6 @@
 									"cell": "headcell_checkbox"
 								},
 								{
-									"cell": "headcell_field"
-								},
-								{
 									"cell": "headcell_field9"
 								},
 								{
@@ -1913,9 +1896,6 @@
 									"cell": "cell_checkbox"
 								},
 								{
-									"cell": "cell_field"
-								},
-								{
 									"cell": "cell_field9"
 								},
 								{
@@ -1952,8 +1932,7 @@
 									"cell": "footcell_checkbox"
 								},
 								{
-									"cell": "footcell_field",
-									"colspan": 2
+									"cell": "footcell_field"
 								},
 								{
 									"cell": "footcell_field1"
@@ -1978,24 +1957,6 @@
 						}
 					],
 					"cells": {
-						"headcell_field": {
-							"model": "headcell_field",
-							"items": [
-								"grid_field_label"
-							],
-							"field": "Station",
-							"columnName": "field",
-							"align": "center"
-						},
-						"cell_field": {
-							"model": "cell_field",
-							"items": [
-								"grid_field"
-							],
-							"field": "Station",
-							"columnName": "field",
-							"align": "center"
-						},
 						"footcell_field": {
 							"model": "footcell_field",
 							"items": [],
@@ -2258,16 +2219,6 @@
 				},
 				"pagination": {
 					"type": "pagination"
-				},
-				"grid_field_label": {
-					"type": "grid_field_label",
-					"field": "reqID"
-				},
-				"grid_field": {
-					"field": "reqID",
-					"type": "grid_field",
-					"inlineAdd": false,
-					"inlineEdit": false
 				},
 				"simple_grid_field7": {
 					"type": "grid_field_label",

@@ -164,6 +164,13 @@
 				"x": 650,
 				"width": 171.6640625,
 				"height": 264
+			},
+			{
+				"gid": 2353213666,
+				"y": 1070,
+				"x": 590,
+				"width": 150.703125,
+				"height": 236
 			}
 		]
 	},
@@ -466,6 +473,21 @@
 								}
 							},
 							{
+								"id": "20",
+								"parent": "8",
+								"data": {
+									"name": {
+										"table": "garages",
+										"type": 6
+									},
+									"pageId": "list",
+									"itemType": 2,
+									"linkType": 0,
+									"table": 2353213666,
+									"pageType": "list"
+								}
+							},
+							{
 								"id": "5",
 								"parent": "8",
 								"data": {
@@ -610,7 +632,8 @@
 						"c1": {
 							"model": "c1",
 							"items": [
-								"snippet"
+								"snippet",
+								"welcome_item"
 							]
 						}
 					},
@@ -646,6 +669,25 @@
 				"snippet": {
 					"type": "snippet",
 					"eventGid": 1503769929
+				},
+				"welcome_item": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "garages",
+					"linkPage": "list",
+					"linkText": {
+						"table": "garages",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "earphone"
+					},
+					"linkComments": {
+						"text": "Garages description",
+						"type": 0
+					},
+					"background": "#7b68ee",
+					"linkType": 0
 				}
 			},
 			"dbProps": {},

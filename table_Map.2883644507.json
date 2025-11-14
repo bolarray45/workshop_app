@@ -127,7 +127,6 @@
 					"type": "loginform_login"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -294,7 +293,6 @@
 					"editedByRte": false
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image",

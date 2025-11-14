@@ -670,7 +670,6 @@
 					"eventGid": 1503769929
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image",
@@ -903,7 +902,6 @@
 					"type": "login_button"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image",
@@ -1173,7 +1171,6 @@
 					"type": "adminarea_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -1786,7 +1783,6 @@
 					"type": "logout_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
@@ -2122,7 +2118,6 @@
 					"type": "logout_link"
 				}
 			},
-			"dbProps": {},
 			"version": 13,
 			"imageItem": {
 				"type": "page_image"
